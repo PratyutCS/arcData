@@ -170,3 +170,74 @@ body{
     border-radius: 0.5vw;
     background: darkgrey;
 }
+.lvd{
+    height:50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lavd{
+    height: 50vh;
+    width: 81.5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lavd img{
+    max-height: 40vh;
+    z-index: 1000;
+}
+.lavd div{
+    margin-top: -17.5vh;
+}
+.lavd div h1{
+    color: #FFFFFF;
+    font-family: nats;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    font-size: 2.5rem;
+}
+.lavd div p{
+    color: #999999;
+    font-family: nats;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    font-size: 1.5rem;
+    border: 0.125em solid #4800E9;
+    border-radius: 0.5em;
+    line-height: 5vh;
+    padding: 0.25em 1em;
+    z-index: 100;
+}
+.number{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.num{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.num div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.num div h1{
+    color: #4800E9;
+    letter-spacing: 0.075em;
+    font-family: nico;
+    line-height: 4vh;
+}
+.num div h3{
+    color: #B4B4B4;
+    letter-spacing: 0.125em;
+    font-family: nico;
+    line-height: 3vh;
+}
