@@ -310,7 +310,7 @@ body{
 }
 .ivs{
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,30 +320,60 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-.ivscont div{
+.ivscont .nav{
     width: 40%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    height: 10vh;
 }
-.ivscont div div{
+.ivscont .nav div{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.ivscont div div a{
+.ivscont .nav div a{
     text-decoration: none;
     color: #ACACAC;
     font-family: nico;
     line-height: 3vh;
+    cursor: default;
 }
-.ivscont div div h1{
+.ivscont .nav div h1{
     color: transparent;
     font-family: nico;
     line-height: 1vh;
+    cursor: default;
 }
-.ivscont div div .active{
+.ivscont .nav div .active{
     color: #FFFFFF;
+}
+.ivscont img{
+    max-width: 85%;
+    width: 85%;
+    border: 0.125em solid #4800E9;
+}
+.ivscont p{
+    margin-bottom: 2.5vh;
+    margin-top: 2.5vh;
+    max-width: 80%;
+    width: 80%;
+    color: #999999;
+    font-family: nats;
+    font-weight: 100;
+    letter-spacing: 0.125rem;
+    font-size: 1.5em;
+    text-align: center;
+}
+.ivscont button{
+    padding: 0em 1.25em;
+    background-color: transparent;
+    border-radius: 0.5em;
+    border: 0.125em solid #7465CA;
+    color: #FFFFFF;
+    font-family: nats;
+    font-size: 1.75em;
 }
