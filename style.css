@@ -241,3 +241,109 @@ body{
     font-family: nico;
     line-height: 3vh;
 }
+.atd{
+    width: 100%;
+    height:180vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cont h1{
+    color: #ACACAC;
+    font-family: nico;
+    font-weight: 100;
+}
+.cont div{
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.cont div img{
+    max-height: 35vh;
+    height: 35vh;
+}
+.cont div div{
+    max-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.cont div div h1{
+    width: 100%;
+    color: #FFFFFF;
+    font-family: nats;
+    letter-spacing: 0.1vw;
+    font-weight: 100;
+}
+.cont div div p{
+    width: 100%;
+    color: #999999;
+    font-family: nats;
+    letter-spacing: 0.1vw;
+    font-size: 3vh;
+}
+.rih{width: 100%;
+    color: #FFFFFF;
+    font-family: nats;
+    letter-spacing: 0.1vw;
+    font-weight: 100;
+    text-align: right;
+}
+.rip{
+    width: 100%;
+    color: #999999;
+    font-family: nats;
+    letter-spacing: 0.1vw;
+    font-size: 3vh;
+    text-align: right;
+}
+.ivs{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ivscont{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ivscont div{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ivscont div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ivscont div div a{
+    text-decoration: none;
+    color: #ACACAC;
+    font-family: nico;
+    line-height: 3vh;
+}
+.ivscont div div h1{
+    color: transparent;
+    font-family: nico;
+    line-height: 1vh;
+}
+.ivscont div div .active{
+    color: #FFFFFF;
+}
