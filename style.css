@@ -115,7 +115,7 @@ body{
     text-shadow: white 1px 0 10px;
 }
 .services{
-    height: 22.5vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -369,11 +369,136 @@ body{
     text-align: center;
 }
 .ivscont button{
-    padding: 0em 1.25em;
+    padding: 0em 1.5em;
     background-color: transparent;
     border-radius: 0.5em;
     border: 0.125em solid #7465CA;
     color: #FFFFFF;
     font-family: nats;
-    font-size: 1.75em;
+    font-size: 1.5em;
+}
+.ebsg{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ebsgcont{
+    width: 90%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ebsgcont h1{
+    max-width: 100%;
+    color: #ACACAC;
+    font-family: nico;
+    letter-spacing: 0.125em;
+    font-size: 2.5em;
+    text-align: center;
+}
+.ebsgcont p{
+    max-width: 75%;
+    color: #999999;
+    font-family: nats;
+    letter-spacing: 0.075em;
+    font-size: 1.2em;
+    text-align: center;
+}
+.csrl{
+    width: 100%;
+    height: 75vh;
+    background-image: url("/assests/body1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.csrl img{
+    margin-bottom: 0vh;
+    margin-top: 45vh;
+    height:30vh;
+}
+.dss{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dss div{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dss div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dss div div h1{
+    width: 100%;
+    color: #ACACAC;
+    text-align: left;
+    font-family: nats;
+    letter-spacing: 0.1vw;
+    font-weight: 100;
+}
+.dss div div .dssp{
+    width: 100%;
+    display: block;
+}
+
+.dss div div .dssbtn{
+    width: 75%;
+    display: block;
+}
+.dss div div div p{
+    width: 90%;
+    text-align: left;
+    color: #999999;
+    font-family: nats;
+    letter-spacing: 0.1vw;
+    font-size: 3vh;
+}
+.dss div div div button{
+    float: right;
+    padding: 0em 1.5em;
+    background-color: transparent;
+    border-radius: 0.5em;
+    border: 0.125em solid #7465CA;
+    color: #FFFFFF;
+    font-family: nats;
+    font-size: 1.5em;
+}
+.dss div img{
+    max-height: 35vh;
+    height: 35vh;
+}
+.amsds{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amsds div{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.amsds div h1{
+    font-family: nico;
+    color: #ACACAC;
+}
+.amsdscont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
