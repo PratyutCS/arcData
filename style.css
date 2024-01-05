@@ -341,12 +341,14 @@ body{
     font-family: nico;
     line-height: 3vh;
     cursor: default;
+    z-index: 1000;
 }
 .ivscont .nav div h1{
     color: transparent;
     font-family: nico;
     line-height: 1vh;
     cursor: default;
+    z-index: 100;
 }
 .ivscont .nav div .active{
     color: #FFFFFF;
@@ -509,4 +511,96 @@ body{
     height: auto;
     max-width: 100%;
     max-width: 100%;
+}
+.footer{
+    height:50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fcont{
+    height: 100%;
+    width: 90%;
+}
+.ftop{
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fbot{
+    border-top: 1px solid #515151;
+    height: 10vh;
+    max-height: 10vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fbot h5{
+    color: #939393;
+    font-family: nats;
+}
+.ftop1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.ftop1 img{
+    width:20%;
+}
+.ftop1 p{
+    margin-top: 2.5vh;
+    color: #939393;
+    font-family: nats;
+    max-width: 65%;
+    letter-spacing: 0.1rem;
+}
+.ftop2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.ftop2 div{
+    height: 100%;
+    width:33.33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.ftop2 div h1{
+    margin-top: 27.5%;
+    color: #FFFFFF;
+    font-family: nats;
+}
+.ftop2 div a{
+    text-decoration: none;
+    color: #939393;
+    font-family: nats;
+    line-height: 5vh;
+}
+.iconcont{
+    margin-top: 2.5vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.iconcont a{
+    text-decoration: none;
+}
+.ico{
+    height: 100%;
+    margin-left: 1vw;
+    width: 50% !important;
 }
