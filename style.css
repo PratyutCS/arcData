@@ -202,6 +202,23 @@ body{
 .acha{
     max-width: 100vh;
 }
+
+.acha1{
+    width: 50vh;
+    max-width: 50vh;
+    opacity: 0.8;
+    filter: drop-shadow(12px 12px 25px #3F779F);
+    animation: shake 2s linear infinite;
+    transform-origin: center;
+}
+@keyframes shake {
+    0%{ transform: translateY(-2vh);
+    }
+    50%{ transform: translateY(0vh);
+    }
+    100%{ transform: translateY(-2vh);
+    }
+}
 .carbtn{
     width: 97.5%;
     height: 5vh;
