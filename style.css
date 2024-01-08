@@ -103,7 +103,6 @@ body{
     align-items: center;
 }
 .body1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/assests/bg2.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100% 150%;
@@ -115,19 +114,22 @@ body{
     width: 100%;
     display: none;
 }
-.blud{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/assests/bg2.jpg") !important;
+.bd1ccbody{
+    width: 95%;
+    height: 65vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
 }
-.blud1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/assests/bg2.jpg") !important;
-}
-.carbtn h3{
+.bd1ccbody h3{
     color: #9D9D9D;
     font-weight: 50;
     font-family: nats;
     font-size: 2em;
+    margin-bottom:5vh;
 }
-.body1 h1{
+.bd1ccbody h1{
     background: -webkit-linear-gradient(#FFFFFF, #979696);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent !important;
@@ -137,10 +139,8 @@ body{
     display: flex;
     justify-content: center;
     height:7.5vh;
-    margin-bottom: 5vh;
 }
 .body2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100% 150%;
@@ -158,6 +158,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.blud1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/assests/bg2.jpg") !important;
+}
+.blud2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
+}
+.blud3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
 }
 .cbody{
     height: 100%;
@@ -275,7 +284,7 @@ body{
     transition: 1s all ease;
     background-color: transparent;
     border-radius: 0.25em;
-    margin-bottom: 10vh;
+    margin-bottom: 12.5vh;
 }
 .btn::before{
     border-radius: 0.25em;
