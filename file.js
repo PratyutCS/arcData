@@ -40,22 +40,29 @@ showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
-let i;
-let slides = document.getElementsByClassName("body1");
-if (n > slides.length) {slideIndex = 1}
-if (n < 1) {slideIndex = slides.length}
-for (i = 0; i < slides.length; i++) {
+  let i;
+  let slides = document.getElementsByClassName("body1");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
-}
-slides[slideIndex-1].style.display = "flex";
+  }
+  slides[slideIndex-1].style.display = "flex";
 }
 
 
 const stickySections = [...document.querySelectorAll('.sticky_wrap')]
 
+let called = false
+
 window.addEventListener('scroll', (e) => {
   for(let i = 0; i < stickySections.length; i++){
     transform(stickySections[i])
+  }
+  if (document.documentElement.scrollTop >= 600) {
+    if (called) return
+    called = true
+    calledEvent()
   }
 })
 
@@ -65,4 +72,24 @@ function transform(section) {
   let percentage = ((window.scrollY - offsetTop) / window.innerHeight) * 100;
   percentage = percentage < 0 ? 0 : percentage > 100 ? 100 : percentage;
   scrollSection.style.transform = `translate3d(${-(percentage)}vw, 0, 0)`;
+}
+
+function calledEvent() {
+  const counters = document.querySelectorAll(".count");
+  const speed = 98;
+  
+  counters.forEach((counter) => {
+    const updateCount = () => {
+      const target = parseInt(+counter.getAttribute("data-target"));
+      const count = parseInt(+counter.innerText);
+      const increment = Math.trunc(target / speed);
+      if (count < target) {
+        counter.innerText = count + increment;
+        setTimeout(updateCount, 20);
+      } else {
+        count.innerText = target;
+      }
+    };
+    updateCount();
+  });
 }

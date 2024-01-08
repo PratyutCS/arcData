@@ -196,7 +196,7 @@ body{
 .cccbody > h5{
     font-weight: 50;
     font-family: nats;
-    font-size: 1.5em;
+    font-size: 1.1em;
     line-height: 6vh;
     background: -webkit-linear-gradient(#FFFFFF, #FFFFFF);
     -webkit-background-clip: text;
@@ -239,13 +239,6 @@ body{
 .prev{
     opacity: 0.7;
 }
-.ana{
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    margin-left: 1vw !important;
-    height: 7.5vh;
-}
 .body1 h1 div div{
     margin: 0;
     padding: 0;
@@ -254,12 +247,16 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent !important;
 }
-
+.ana{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    margin-left: 1vw !important;
+    height: 7.5vh;
+}
 .ana div:first-child {
     animation: text-animation 8s infinite;
-  }
-
-
+}
 @keyframes text-animation {
     0% {margin-top: 0vh;}
     15% {margin-top: 0vh;}
@@ -267,8 +264,7 @@ body{
     65% {margin-top: -7.5vh;}
     85% {margin-top: 0vh;}
     100% {margin-top: 0vh;}
-  }
-
+}
 .btn{
     position: relative;
     display: block;
@@ -353,7 +349,7 @@ body{
 .serv div{
     height: 7.5vh;
     width: 15vw;
-    border: 0.1em solid #4800E9;
+    border: 0.1em solid #4C9FFF;
     border-radius: 0.25em;
     display: flex;
     justify-content: space-evenly;
@@ -420,7 +416,7 @@ body{
     font-weight: 100;
     letter-spacing: 0.05em;
     font-size: 1.5rem;
-    border: 0.075em solid #4800E9;
+    border: 0.075em solid #4C9FFF;
     border-radius: 0.5em;
     line-height: 5vh;
     padding: 0.25em 1em;
@@ -446,7 +442,7 @@ body{
     flex-direction: column;
 }
 .num div h1{
-    color: #4800E9;
+    color: #4C9FFF;
     letter-spacing: 0.075em;
     font-family: nico;
     line-height: 4vh;
@@ -575,7 +571,7 @@ body{
 .ivscont img{
     max-width: 85%;
     width: 85%;
-    border: 0.125em solid #4800E9;
+    border: 0.125em solid #4C9FFF;
 }
 .ivscont p{
     margin-bottom: 2.5vh;
@@ -588,15 +584,6 @@ body{
     letter-spacing: 0.125rem;
     font-size: 1.5em;
     text-align: center;
-}
-.ivscont button{
-    padding: 0em 1.5em;
-    background-color: transparent;
-    border-radius: 0.5em;
-    border: 0.125em solid #7465CA;
-    color: #FFFFFF;
-    font-family: nats;
-    font-size: 1.5em;
 }
 .ebsg{
     width: 100%;
@@ -629,19 +616,6 @@ body{
     font-size: 1.2em;
     text-align: center;
 }
-/* .csrl{
-    width: 100%;
-    height: 95vh;
-    background-image: url("/assests/body1.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 160%;
-}
-.csrl img{
-    margin-bottom: 0vh;
-    margin-top: 50vh;
-    height:42.5vh;
-} */  
 .scroll_container {
     height: 200vh;
 }  
@@ -693,11 +667,46 @@ body{
 }
 .dss div div h1{
     width: 100%;
+    height: 7.5vh;
     color: #ACACAC;
     text-align: left;
     font-family: nats;
     letter-spacing: 0.1vw;
     font-weight: 100;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dssana{
+    width: fit-content !important;
+    overflow: hidden;
+    margin: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 7.5vh;
+    z-index: 10000;
+}
+.dssana div{
+    width: fit-content !important;
+    height: 7.5vh;
+}
+.dssana div:first-child {
+    margin-top: 14vh;
+    animation: text-animation1 8s infinite;
+}
+@keyframes text-animation1 {
+    0% {margin-top: 14vh;}
+    10% {margin-top: 14vh;}
+    20% {margin-top: -0vh;}
+    30% {margin-top: 0vh;}
+    40% {margin-top: -15vh;}
+    60% {margin-top: -15vh;}
+    70% {margin-top: 0vh;}
+    80% {margin-top: 0vh;}
+    90% {margin-top: 14vh;}
+    100% {margin-top: 14vh;}
 }
 .dss div div .dssp{
     width: 100%;
@@ -721,7 +730,7 @@ body{
     padding: 0em 1.5em;
     background-color: transparent;
     border-radius: 0.5em;
-    border: 0.125em solid #7465CA;
+    border: 0.08em solid #4C9FFF;
     color: #FFFFFF;
     font-family: nats;
     font-size: 1.5em;
