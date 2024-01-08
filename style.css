@@ -620,7 +620,7 @@ body{
     font-size: 1.2em;
     text-align: center;
 }
-.csrl{
+/* .csrl{
     width: 100%;
     height: 95vh;
     background-image: url("/assests/body1.svg");
@@ -632,6 +632,36 @@ body{
     margin-bottom: 0vh;
     margin-top: 50vh;
     height:42.5vh;
+} */  
+.scroll_container {
+    height: 200vh;
+}  
+.horizontal_scroll {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 200vw;
+    will-change: transform;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}  
+.scroll_contents {
+    height: 100%;
+    width: 200vw;
+}  
+.sticky_wrap {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}  
+.red {
+    background-color: black;
+    background-image: url("/assests/hori.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .dss{
     width: 100%;
