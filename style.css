@@ -183,6 +183,9 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.ccbody > video{
+    height: 45vh;
+}
 .cccbody > h3{
     font-weight: 50;
     font-family: nats;
@@ -347,14 +350,54 @@ body{
     align-items: center;
 }
 .serv div{
+    position: relative;
     height: 7.5vh;
     width: 15vw;
-    border: 0.1em solid #4C9FFF;
+    /* border: 0.1em solid #4C9FFF; */
     border-radius: 0.25em;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+    /* background-color: rgba(64,0,150,0.5); */
+    background-color: rgba(76,159,255,0.2);
+}
+.serv div svg, .serv div svg rect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7.5vh;
+    width: 15vw;
+    fill: transparent;
+}
+.serv div svg rect{
+    stroke-width: 4;
+    stroke: #4C9FFF;
+    stroke-dasharray: 0,600;
+    animation: animaterev 1s linear forwards;
+}
+.serv div svg rect:hover{
+    animation: animate 1s linear forwards;
+}
+@keyframes animate {
+    0%{
+        stroke-dasharray: 0,600;
+        stroke-dashoffset: 600;
+    }
+    100%{
+        stroke-dasharray: 600,0;
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes animaterev {
+    0%{
+        stroke-dasharray: 600,0;
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dasharray: 0,600;
+        stroke-dashoffset: 600;
+    }
 }
 
 .serv div img{
@@ -481,6 +524,7 @@ body{
     width: 100%;
 }
 .cont div img{
+    border: 2px solid #fff;
     max-height: 35vh;
     height: 35vh;
 }
@@ -507,6 +551,40 @@ body{
     letter-spacing: 0.1vw;
     font-size: 3vh;
     font-weight: 100;
+}
+.contoverlay img{
+    max-height: calc(35vh - 4px) !important;
+}
+.contoverlay{
+    overflow: hidden;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+}
+.content-details{
+    width: 100% !important;
+    background-image: linear-gradient(#00000063,#000000);
+    /* border-bottom: 2px solid #fff; */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    opacity: 0;
+    transition: 0.5s linear;
+}
+.contoverlay:hover .content-details{
+    transform: translateY(-100%);
+    opacity: 1;
+}
+.content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}  
+.content-details p{
+    width: max-content !important;
+    color: #fff !important;
+    font-size: 0.8em;
 }
 .rih{width: 100%;
     color: #FFFFFF;

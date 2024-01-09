@@ -59,7 +59,8 @@ window.addEventListener('scroll', (e) => {
   for(let i = 0; i < stickySections.length; i++){
     transform(stickySections[i])
   }
-  if (document.documentElement.scrollTop >= 600) {
+  // console.log(document.documentElement.scrollTop);
+  if (document.documentElement.scrollTop >= 4350) {
     if (called) return
     called = true
     calledEvent()
