@@ -19,8 +19,9 @@
             <img src="./assests/logo.png" alt="logo">
             <div class="navlinks">
                 <a class="undies" href="#">HOME</a>
+                <a class="undies" href="#">SERVICES</a>
+                <a class="undies" href="#">INDUSTRY</a>
                 <a class="undies" href="#">COMPANY</a>
-                <a class="undies" href="#">DATA COLLECTION</a>
                 <a class="undies" href="#">CONTACT US</a>
                 <a href="#project" class="btn4 btn4--svg js-animated-button">
                     <span class="btn4--svg__label">GET STARTED</span>
@@ -137,6 +138,15 @@
             <div>
                 <svg>
                     <rect>
+                        
+                    </rect>
+                </svg>
+                <img src="/assests/Layers_fill.png" alt="charts">
+                <h3>Data Annotation</h3>
+            </div>
+            <div>
+                <svg>
+                    <rect>
 
                     </rect>
                 </svg>
@@ -149,17 +159,8 @@
                         
                     </rect>
                 </svg>
-                <img src="/assests/Layers_fill.png" alt="charts">
-                <h3>Image Annotation</h3>
-            </div>
-            <div>
-                <svg>
-                    <rect>
-                        
-                    </rect>
-                </svg>
                 <img src="/assests/Search.png" alt="charts">
-                <h3>Annotated Data</h3>
+                <h3>OCR DATA</h3>
             </div>
             <div>
                 <svg>
@@ -168,36 +169,53 @@
                     </rect>
                 </svg>
                 <img src="/assests/Clipboard.png" alt="charts">
-                <h3>NLP & Speech</h3>
+                <h3>NLP</h3>
             </div>
         </div>
     </div>
-    <!-- <div class="lvd">
-        <div class="lavd">
-            <img src="./assests/lvd.png" alt="lvd">
-            <div>
-                <h1>Labeling & Validation of Data</h1>
-                <p>Effective training of AI algorithms often relies on well-prepared inputs, typically achieved through human annotation, which is crucial for successful learning-based model development.</p>
+
+
+    <div class="lvd" >
+        <div class="lavd" >
+            <div class="lavdhalf">
+                <div>
+                  <h3>Data Annotation</h3>
+                    <p class="pl">The best quality data to fuel the best performing models</p>
+                </div>
+                <div class="butth">
+                    <p onclick="butth(1)" class="butth1 butth-active">Image</p>
+                    <p onclick="butth(2)" class="butth2" >Video</p>
+                    <p onclick="butth(3)" class="butth3">Audio</p>
+                    <p onclick="butth(4)" class="butth4 butthright">Text</p>
+                </div>
+                <div class="kal">
+                    Welcome to our labelling services hub! Accelerate accuracy in AI with 2D/3D bounding boxes,
+                    polygons, landmarks, and more. Elevate your annotations for seamless machine learning advancements.
+                </div>
+            </div>
+            <div id="ex1" class="lavdotherhalf">
+                <img id="ex1-layer" class="butthimg" src="./assests/Group 39.svg">
             </div>
         </div>
     </div>
-    -->
+   
     <div class="atd">
+        <img src="/assests/design.svg" class="atdsvg">
         <div class="cont">
-            <h1>AI Training Data</h1>
+            <h1>Data Collection</h1>
             <br>
             <br>
             <br>
             <div>
                 <div>
-                    <h1>Image Annotation</h1>
+                    <h1>Image Collection</h1>
                     <p>ArcData collects image datasets like facial imagery including facial expressions for training learning-based algorithms (AI) to recognize human features as well as emotions</p>
                 </div>
-                <div class="contoverlay">
+                <div class="contoverlay QQ">
                     <img src="./assests/sc2.svg">
                     <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">This is a title</h3>
-                        <p class="content-text">This is a short description</p>
+                        <h3 class="content-title">Image Datasets</h3>
+                        <p class="content-text">Collection of all the images</p>
                     </div>
                 </div>
             </div>
@@ -207,9 +225,9 @@
             <div>
                 <div class="contoverlay">
                     <img src="./assests/sc1.svg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">This is a title</h3>
-                        <p class="content-text">This is a short description</p>
+                    <div class="content-details ">
+                        <h3 class="content-title">Video Datasets</h3>
+                        <p class="content-text">Collection of all the Videos</p>
                     </div>
                 </div>
                 <div>
@@ -225,11 +243,11 @@
                     <h1>Audio Collection</h1>
                     <p>ArcData collects image datasets like facial imagery including facial expressions for training learning-based algorithms (AI) to recognize human features as well as emotions</p>
                 </div>
-                <div class="contoverlay">
+                <div class="contoverlay QQ">
                     <img src="./assests/NLP 1.svg">
                     <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">This is a title</h3>
-                        <p class="content-text">This is a short description</p>
+                        <h3 class="content-title">Audio Datasets</h3>
+                        <p class="content-text">Collection of transcript of Audios</p>
                     </div>
                 </div>
             </div>
@@ -239,9 +257,9 @@
             <div>
                 <div class="contoverlay">
                     <img src="./assests/Group 40.svg">
-                    <div class="content-details fadeIn-bottom">
-                        <h3 class="content-title">This is a title</h3>
-                        <p class="content-text">This is a short description</p>
+                    <div class="content-details">
+                        <h3 class="content-title">Text Collection Datasets</h3>
+                        <p class="content-text">Collection of Text Data</p>
                     </div>
                 </div>
                 <div>
@@ -267,9 +285,9 @@
                     <h1 class="qq3" onclick="oh(1)">.</h1>
                 </div>
             </div>
-            <img src="/assests/ivs.png" alt="ivs">
-            <p>Leverage labelling services for faster and accurate annotations including 2D and 3D boundingboxes, polygons, polylines, landmarks, key-points, and semantic segmentation.</p>
-            <button class="btn btn1">Get Demo</button>
+            <img class="oho" src="/assests/Group 38.svg" alt="ivs">
+            <p class="p1" >Leverage labelling services for faster and accurate annotations including 2D and 3D boundingboxes, polygons, polylines, landmarks, key-points, and semantic segmentation.</p>
+            <button class="btn btn1 gbtn">Get Demo</button>
         </div>
     </div>
     <div class="ebsg">
@@ -293,7 +311,7 @@
     </div>
     
     <section>
-        <div class="dss">
+        <!-- <div class="dss">
             <div>
                 <div>
                     <h1>
@@ -314,8 +332,9 @@
                 </div>
                 <img src="./assests/ac.png">
             </div>
-        </div>
+        </div> -->
         <div class="number">
+            <h1>Satisfaction</h1>
             <div class="num">
                 <div>
                     <h1><span data-target="3000" class="count">0</span>+</h1>
