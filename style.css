@@ -561,7 +561,7 @@ body{
     border-radius: 1px; */
 
 .number{
-    height: 20vh;
+    height: 25vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -569,11 +569,11 @@ body{
     flex-direction: column;
 }
 .number > h1{
-    color: #FFFFFF;
+    color: #ACACAC;
     font-family: nico;
     letter-spacing: 0.125rem;
     font-size: 2em;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
 }
 .num{
     width: 90%;
@@ -856,7 +856,7 @@ body{
 }  
 .red {
     background-color: black;
-    background-image: url("/assests/hori.svg");
+    background-image: url("/assests/Gp41.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
