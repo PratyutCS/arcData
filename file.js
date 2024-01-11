@@ -6,7 +6,7 @@ function oh(i){
         document.querySelector(".qq2").classList.remove("active");
         document.querySelector(".q3").classList.remove("active");
         document.querySelector(".qq3").classList.remove("active");
-        document.querySelector(".oho").src = "/assests/Group 38.svg";
+        document.querySelector(".oho").src = "./assests/Group 38.svg";
         document.querySelector(".p1").innerHTML = "Leverage labelling services for faster and accurate annotations including 2D and 3D boundingboxes, polygons, polylines, landmarks, key-points, and semantic segmentation.";
     }
     else if(i==2){
@@ -27,7 +27,7 @@ function oh(i){
         document.querySelector(".qq2").classList.remove("active");
         document.querySelector(".q3").classList.add("active");
         document.querySelector(".qq3").classList.add("active");
-        document.querySelector(".oho").src = "/assests/se.svg";
+        document.querySelector(".oho").src = "./assests/se.svg";
         document.querySelector(".p1").innerHTML = "Precision in Every Dimension: Elevate 3D Computer Vision Accuracy with Our Annotation Services. From Camera to Lidar and Radar, Unlock Enhanced Models with 3D Bounding Boxes, 2D-3D Linking, and Point Cloud Segmentations.";
 
     }

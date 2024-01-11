@@ -1,10 +1,10 @@
 @font-face {
     font-family: nico;
-    src: url("/assests/Nico/NicoMoji-Regular.ttf");
+    src: url("./assests/Nico/NicoMoji-Regular.ttf");
 }
 @font-face {
     font-family: nats;
-    src: url("/assests/nats/NATS-Regular.ttf");
+    src: url("./assests/nats/NATS-Regular.ttf");
 }
 *{
     padding: 0;
@@ -77,17 +77,17 @@ body{
     background-color: #FFF;
     bottom: 0;
     left: 0;
-    transform-origin: right;
+    transform-origin: center;
     transform: scaleX(0);
     transition: transform 0.3s ease-in-out;
 }
   
 .undies:hover::before {
-    transform-origin: left;
+    /* transform-origin: left; */
     transform: scaleX(1);
 }
 .bg{
-    background-image: url("/assests/bg2.jpg");
+    background-image: url("./assests/bg2.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100% 150%;
@@ -169,7 +169,7 @@ body{
     align-items: center;
 }
 .blud1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/assests/bg2.jpg") !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./assests/bg2.jpg") !important;
 }
 .blud2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
@@ -865,7 +865,7 @@ body{
 }  
 .red {
     background-color: black;
-    background-image: url("/assests/Gp41.svg");
+    background-image: url("./assests/Gp41.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
