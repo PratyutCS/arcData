@@ -7,6 +7,7 @@ function oh(i){
         document.querySelector(".q3").classList.remove("active");
         document.querySelector(".qq3").classList.remove("active");
         document.querySelector(".oho").src = "/assests/Group 38.svg";
+        document.querySelector(".p1").innerHTML = "Leverage labelling services for faster and accurate annotations including 2D and 3D boundingboxes, polygons, polylines, landmarks, key-points, and semantic segmentation.";
     }
     else if(i==2){
         document.querySelector(".q1").classList.remove("active");
@@ -33,7 +34,7 @@ function oh(i){
 }
 
 
-let slideIndex = 1;
+let slideIndex = 0;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -55,6 +56,20 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
   slides[slideIndex-1].style.display = "flex";
+}
+
+showSlides1();
+
+function showSlides1() {
+  let i;
+  let slides = document.getElementsByClassName("body1");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "flex";
+  setTimeout(showSlides1, 5000); // Change image every 6 seconds
 }
 
 
@@ -126,7 +141,7 @@ function transforms(x, y, el) {
     + "rotateY("+ calcY +"deg)";
 };
 
- function transformElement(el, xyEl) {
+function transformElement(el, xyEl) {
   el.style.transform  = transforms.apply(null, xyEl);
 }
 
