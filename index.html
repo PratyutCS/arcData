@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ArcData Technology -</title>
     <link rel="icon" type="image/x-icon" href="./assests/favicon.png">
-    <link rel="stylesheet" href="./style.css">
     <script defer src="./file.js"></script>
-    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet"  media="all and (min-device-width: 1025px)" href="./style.css">
+    <link rel="stylesheet"  media="all and (min-device-width: 1025px)" href="./style2.css">
+    <!-- responsive styling -->
+    
+    <link rel="stylesheet" media="all and (max-device-width: 1024px) and (min-device-width: 480px) and (orientation:portrait)" href="ipad-portrait.css" />
+    <link rel="stylesheet" media="all and (max-device-width: 1024px) and (min-device-width: 480px) and (orientation:landscape)" href="ipad-landscape.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -19,10 +24,32 @@
             <img src="./assests/logo.png" alt="logo">
             <div class="navlinks">
                 <a class="undies" href="#">HOME</a>
-                <a class="undies" href="#">SERVICES</a>
-                <a class="undies" href="#">INDUSTRY</a>
-                <a class="undies" href="#">COMPANY</a>
-                <a class="undies" href="#">CONTACT US</a>
+                <div class="dropdown">
+                    <button class="undies" href="#">SERVICES</button>
+                    <div class="dropdown-content">
+                      <a href="#">Data Collection</a>
+                      <a href="#">Image Annotation</a>
+                      <a href="#">Video Annotation</a>
+                      <a href="#">Text Annotation</a>
+                      <a href="#">Speech-to-text</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="undies" href="#">INDUSTRY</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div class="dropdown"> 
+                    <button class="undies" href="#">COMPANY</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
                 <a href="#project" class="btn4 btn4--svg js-animated-button">
                     <span class="btn4--svg__label">GET STARTED</span>
                     <svg width="190" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" class="btn4--svg__circle">
@@ -38,8 +65,11 @@
                     </svg>
                 </a>
             </div>
+           
         </div>
+       
     </div>
+    <div class="fade-effect1"></div> 
 
     <div class="carsal">
 
@@ -406,7 +436,7 @@
                 </div>
             </div>
             <div class="fbot">
-                <h5>Copyright © 2021. Designed by Team</h5>
+                <h5>Copyright © 2023. Designed by Team</h5>
             </div>
         </div>
     </section>

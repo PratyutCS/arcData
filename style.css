@@ -22,6 +22,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .navnav{
     display: flex;
@@ -30,6 +31,12 @@ body{
     width: 90%;
     background-color: #000000;
     height: 10vh;
+}
+.fade-effect1{
+    color:white;
+    height: 0.05vh;
+    background: linear-gradient(to right, transparent, rgb(75, 75, 75), transparent);
+    border: 1px solid linear-gradient(to right, transparent, rgb(75, 75, 75), transparent);
 }
 .navnav img{
     height: 4vh;
@@ -43,13 +50,25 @@ body{
 
 .navlinks a {
     float: left;
-    display: block;
+    /* display: block; */
     color: #9D9D9D;
     text-align: center;
     margin-left: 2vw;
     text-decoration: none;
     font-family: nats;
     cursor: pointer;
+    font-size: 1rem;
+}
+.dropdown button{
+    color: #9D9D9D;
+    text-align: center;
+    margin-left: 2vw;
+    text-decoration: none;
+    font-family: nats;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    font-weight: 100;
 }
 /* .navlinks a:hover {
     color:#FFF;
@@ -69,7 +88,7 @@ body{
     background-position: left;
     background-size: 100% 100%;
 }  
-.undies::before {
+/* .undies::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -83,8 +102,44 @@ body{
 }
   
 .undies:hover::before {
-    /* transform-origin: left; */
+    //transform-origin: left;
     transform: scaleX(1);
+} */
+
+.dropdown {
+    position: relative;
+    display: inline-block !important;
+}
+.dropdown-content {
+    display: none !important;
+    position: absolute !important;
+    min-width: 10vw;
+    max-width: 10vw;
+    width: 10vw;
+    margin-left: -1vw;
+    z-index: 1;
+    border-radius: 20px;
+    background-color: #0E0E0E;
+    color: rgb(16, 16, 16);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 0.05px solid rgba(136, 136, 136,0.3);
+}
+.dropdown-content a {
+    color: rgb(112, 111, 111);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: color,font-size 0.2s linear;
+    margin-left: 0vw;
+    font-size: 0.8rem !important;
+}
+.dropdown-content a:hover{
+    color:#4C9FFF;
+    font-size: 1rem !important;
+  }
+.dropdown:hover .dropdown-content {
+    display: flex !important;
+    flex-direction: column;
 }
 .bg{
     background-image: url("./assests/bg2.jpg");
@@ -314,7 +369,6 @@ body{
 .btn1:hover::before{
     border: 0.125em solid #400096;
     width: 100%;
-    
 }
 .carind{
     height: 10vh;
@@ -383,6 +437,7 @@ body{
     width: calc(15vw + 2px);
     fill: transparent;
     border-radius: 0.25em;
+    box-shadow: 3px 2px 20px 1px rgba(159, 37, 220, 0.2);
 }
 .serv div svg rect{
     stroke-width: 3;
@@ -457,6 +512,7 @@ body{
     border: 1px solid rgba(76, 160, 255, 0.4);
     border-radius: 1.8em;
     background: linear-gradient(rgba(0, 0, 0, 1) 10%, rgba(72, 0, 234, 0.2091430322128851) 70%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    box-shadow: 2px 4px 20px 1px rgba(159, 37, 220, 0.2);
     /* filter: drop-shadow(0.03vh 0.03vh 0.9vh #a26cff); */
 }
 
@@ -490,6 +546,7 @@ body{
     height: 60vh;
     width: 35vw;
     -webkit-box-reflect: below 1vh linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0.3));
+    
 }
 .kal{
     color: white;
@@ -756,6 +813,7 @@ body{
     border: 1px solid rgba(76, 160, 255, 0.4);
     background: linear-gradient(rgba(0, 0, 0, 1) 10%, rgba(72, 0, 234, 0.2091430322128851) 70%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 1) 100%);
     border-radius: 2em;
+    box-shadow: 3px 7px 20px 1px rgba(159, 37, 220, 0.2);
     /* filter: drop-shadow(0.03vh 0.03vh 0.3vh #5d00ff); */
 }
 .ivscont .nav{
@@ -1104,3 +1162,8 @@ body{
 .fa-linkedin:hover{
     color:#Fff
 }
+
+
+
+
+

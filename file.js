@@ -69,7 +69,7 @@ function showSlides1() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "flex";
-  setTimeout(showSlides1, 5000); // Change image every 6 seconds
+  setTimeout(showSlides1, 10000); // Change image every 6 seconds
 }
 
 
