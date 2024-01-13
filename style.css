@@ -141,6 +141,9 @@ body{
     display: flex !important;
     flex-direction: column;
 }
+.hamburger{
+    display: none;
+}
 .bg{
     background-image: url("./assests/bg2.jpg");
     background-repeat: no-repeat;
