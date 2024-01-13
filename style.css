@@ -141,7 +141,10 @@ body{
     display: flex !important;
     flex-direction: column;
 }
-.hamburger{
+.ham{
+    display: none;
+}
+.mobile-nav{
     display: none;
 }
 .bg{
