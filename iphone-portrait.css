@@ -260,7 +260,8 @@ body{
     font-size: 1em;
     display: flex;
     justify-content: center;
-    height:5.5vh;
+    height:2.5vh;
+    margin-bottom: 3vh;
 }
 .body2{
     display: flex;
@@ -368,7 +369,7 @@ body{
 .body1 h1 div div{
     margin: 0;
     padding: 0;
-    height: 7.5vh;
+    height: 2.5vh;
     background: -webkit-linear-gradient(90deg,#4800EA, #4C9FFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent !important;
@@ -378,7 +379,7 @@ body{
     margin: 0;
     padding: 0;
     margin-left: 1vw !important;
-    height: 7.5vh;
+    height: 2.5vh;
 }
 .ana div:first-child {
     animation: text-animation 8s infinite;
@@ -386,8 +387,8 @@ body{
 @keyframes text-animation {
     0% {margin-top: 0vh;}
     15% {margin-top: 0vh;}
-    35% {margin-top: -7.5vh;}
-    65% {margin-top: -7.5vh;}
+    35% {margin-top: -2.5vh;}
+    65% {margin-top: -2.5vh;}
     85% {margin-top: 0vh;}
     100% {margin-top: 0vh;}
 }
@@ -588,7 +589,7 @@ body{
 .lavdotherhalf img{
     height: 60vh;
     width: 35vw;
-    -webkit-box-reflect: below 1vh linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0.3));
+    -webkit-box-reflect: below 0vh linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0.3));
     
 }
 .kal{
@@ -660,14 +661,10 @@ body{
     color: white !important;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    position: relative;
-    
-   
+    position: relative;  
 }
-/*  
-    height: 3vh;
-    border: 0.3px solid rgba(218, 218, 218,0.3);
-    border-radius: 1px; */
+
+
 
 .number{
     height: 25vh;
@@ -709,13 +706,16 @@ body{
     font-family: nico;
     line-height: 3vh;
 }
+
+
+
 .atd{
+    margin-top: 5vh;
     width: 100%;
-    height:200vh;
+    height:175vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
 }
 .atdsvg{
     position: absolute;
@@ -734,28 +734,32 @@ body{
     color: #ACACAC;
     font-family: nico;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1em;
 }
 .cont div{
     height: 35vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
 }
+.eve{
+    flex-direction: column !important;
+}
 .cont div img{
     border: 2px solid #fff;
-    max-height: 35vh;
-    height: 35vh;
+    max-height: 15vh;
+    height: 15vh;
 }
 .cont div div{
+    text-align: center;
     max-height: 35vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    width: 50%;
+    width: 100%;
 }
 .cont div div h1{
     width: 100%;
@@ -764,29 +768,25 @@ body{
     letter-spacing: 0.1vw;
     font-weight: 100;
     line-height: 5vh;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
 }
 .cont div div p{
     width: 100%;
     color: #999999;
     font-family: nats;
     letter-spacing: 0.1vw;
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     font-weight: 100;
 
 }
 .contoverlay img{
-    max-height: calc(35vh - 4px) !important;
-
+    max-height: calc(15vh - 4px) !important;
 }
 .contoverlay{
     overflow: hidden;
     display: flex !important;
-    justify-content: flex-start !important;
-    align-items:flex-start !important;
-}
-.QQ{
-    align-items:flex-end !important;
+    justify-content: center !important;
+    align-items:center !important;
 }
 .content-details{
     width: 100% !important;
@@ -795,41 +795,19 @@ body{
     display: flex !important;
     justify-content: center !important;
     align-items: flex-start !important;
-    
     opacity: 0;
     transition: 0.5s linear;
-}
-.contoverlay:hover .content-details{
-    transform: translateY(-100%);
-    opacity: 1;
-}
-.content-details h3{
-    color: #fff;
-    font-weight: 500;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    font-family: nats;
-    margin-left: 3vw;
-}  
-.content-details p{
-    width: max-content !important;
-    color: #8a8a8a !important;
-    font-size: 1em !important;
-    font-family: nats;
-    margin-left: 3vw;
+    display: none !important;
 }
 .fadeIn-bottom{
-    align-items: flex-end !important;
-}
-.fadeIn-bottom > h3, .fadeIn-bottom > p{
-    margin-right: 3vw !important;
+    display: none !important;
 }
 .rih{width: 100%;
     color: #FFFFFF;
     font-family: nats;
     letter-spacing: 0.1vw;
     font-weight: 100;
-    text-align: right;
+    text-align: center;
 }
 .rip{
     width: 100%;
@@ -837,16 +815,17 @@ body{
     font-family: nats;
     letter-spacing: 0.1vw;
     font-size: 3vh;
-    text-align: right;
+    text-align: center;
 }
+
+
+
 .ivs{
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
-    display: none;
     
 }
 .ivscont{
@@ -863,7 +842,7 @@ body{
     /* filter: drop-shadow(0.03vh 0.03vh 0.3vh #5d00ff); */
 }
 .ivscont .nav{
-    width: 40%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -881,6 +860,7 @@ body{
     color: #ACACAC;
     font-family: nico;
     line-height: 3vh;
+    font-size: 0.8em;
     cursor: default;
     z-index: 1000;
 }
@@ -888,6 +868,7 @@ body{
     color: transparent;
     font-family: nico;
     line-height: 1vh;
+    font-size: 0.8em;
     cursor: default;
     z-index: 100;
 }
@@ -895,25 +876,27 @@ body{
     color: #FFFFFF;
 }
 .ivscont img{
-    height: 60vh;
-    max-height: 60vh;
+    height: 20vh;
+    max-height: 20vh;
     border: 0.125em solid #4C9FFF;
 }
 .ivscont p{
     margin-bottom: 2.5vh;
     margin-top: 2.5vh;
-    max-width: 80%;
-    width: 80%;
+    max-width: 90%;
+    width: 90%;
     color: #999999;
     font-family: nats;
     font-weight: 100;
-    letter-spacing: 0.125rem;
-    font-size: 1em;
+    font-size: 0.7em;
     text-align: center;
 }
 .gbtn{
     margin-bottom: 7.5vh !important;
 }
+
+
+
 .ebsg{
     width: 100%;
     height: 50vh;
