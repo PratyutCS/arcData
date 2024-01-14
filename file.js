@@ -5,6 +5,7 @@ window.addEventListener("load",function(){
   hiddenElements.forEach(function(element) {
     element.classList.remove("hidden");
   });
+  showSlides1();
 })
 
 
@@ -72,8 +73,6 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "flex";
 }
 
-showSlides1();
-
 function showSlides1() {
   let i;
   let slides = document.getElementsByClassName("body1");
@@ -85,7 +84,7 @@ function showSlides1() {
     slideIndex = 1;
   }
   slides[slideIndex - 1].style.display = "flex";
-  setTimeout(showSlides1, 10000); // Change image every 6 seconds
+  setTimeout(showSlides1, 10000); // Change image every 30 seconds
 }
 
 const stickySections = [...document.querySelectorAll(".sticky_wrap")];
