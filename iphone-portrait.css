@@ -10,6 +10,37 @@
     padding: 0;
     margin: 0;
 }
+
+
+
+.hidden{
+    display: none !important;
+}
+.loader{
+    height: 100vh;
+    width: 100%;
+    /* background-color: pink; */
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+.loader > img{
+    max-width: 5vh;
+    max-width: 5vw;
+    animation: rotate 2s infinite linear;
+    transform-style: preserve-3d;
+}
+@keyframes rotate {
+    0% { transform: translateZ(-50px) rotateY(0deg);}
+    100% { transform: translateZ(-50px) rotateY(360deg);}
+}
+
+
+
 body{
     padding: 0;
     margin: 0;

@@ -3,7 +3,6 @@ window.addEventListener("load",function(){
   loader.style.display = "none";
   var hiddenElements = document.querySelectorAll('.hidden');
   hiddenElements.forEach(function(element) {
-    console.log(element);
     element.classList.remove("hidden");
   });
 })
