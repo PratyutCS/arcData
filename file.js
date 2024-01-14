@@ -1,3 +1,15 @@
+window.addEventListener("load",function(){
+  const loader = document.querySelector(".loader");
+  loader.style.display = "none";
+  var hiddenElements = document.querySelectorAll('.hidden');
+  hiddenElements.forEach(function(element) {
+    console.log(element);
+    element.classList.remove("hidden");
+  });
+})
+
+
+
 function oh(i) {
   if (i == 1) {
     document.querySelector(".q1").classList.add("active");
