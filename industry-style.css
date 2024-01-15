@@ -343,9 +343,10 @@ body{
 .cchild-2{
     display: flex;
     height: 100%;
-    width: 50%;
+    width: 52%;
+    padding-right: 2.5vw;
     font-family: nats;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .cchild-11{

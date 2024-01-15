@@ -198,6 +198,7 @@ function butth(i) {
     document.querySelector(".butth2").classList.remove("butth-active");
     document.querySelector(".butth3").classList.add("butth-active");
     document.querySelector(".butth4").classList.remove("butth-active");
+    document.querySelector(".butthimg").src = "./assests/audio.svg";
   } else {
     document.querySelector(".butth1").classList.remove("butth-active");
     document.querySelector(".butth2").classList.remove("butth-active");
