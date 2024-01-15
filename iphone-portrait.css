@@ -566,8 +566,8 @@ body{
     flex-direction: column;
     border: 1px solid rgba(76, 160, 255, 0.4);
     border-radius: 1.8em;
-    background: linear-gradient(rgba(0, 0, 0, 1) 10%, rgba(72, 0, 234, 0.2091430322128851) 70%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 1) 100%);
-    box-shadow: 2px 4px 20px 1px rgba(159, 37, 220, 0.2);
+    background: linear-gradient(rgba(0, 0, 0, 1) 10%, rgba(72, 0, 234, 0.15) 70%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    box-shadow: 2px 4px 20px 1px rgba(159, 37, 220, 0.15);
     /* filter: drop-shadow(0.03vh 0.03vh 0.9vh #a26cff); */
 }
 
@@ -576,9 +576,16 @@ body{
     font-family: nats;
     font-weight: 100;
     letter-spacing: 0.05em;
-    font-size: 1rem;
+    font-size: 3vh;
     text-align: center;
     padding-top: 2rem;
+}
+
+.lavd-o{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 .lavdhalf{
     width: 100%;
@@ -605,19 +612,19 @@ body{
 }
 .kal{
     text-align: center;
-    color: white;
+    color: rgb(212, 208, 208);
     display: flex;
-    width: 90%;
-    padding-top: 2rem;
+    width: 85%;
+    padding-top: 3vh;
+    line-height: 2.1vh;
     font-family: nats;
-    font-size: 0.7rem;
+    font-size: 0.79em;
 }
 .pl{
     color: #999999;
     font-family: nats;
     font-weight: 100;
-    letter-spacing: 0.05em;
-    font-size: 0.7rem;
+    font-size: 0.8em;
     text-align: center;
     border-radius: 0.5em;
     line-height: 5vh;
@@ -627,8 +634,8 @@ body{
 .butth{
     height: 6vh;
     min-height: 6vh;
-    width: 90%;
-    margin-top: 2rem;
+    width: 80%;
+    margin-top: 2vh;
     overflow: hidden;
     background-color:#000000;
     border: 0.8px solid rgba(218, 218, 218,0.3);

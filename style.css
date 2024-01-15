@@ -552,7 +552,7 @@ body{
 }
 .lavd{
     height: 80vh;
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -568,17 +568,21 @@ body{
     font-family: nats;
     font-weight: 100;
     letter-spacing: 0.05em;
-    font-size: 3rem;
-    padding-top: 6rem;
-    padding-left: 6rem;
+    font-size: 5vh;
 }
 .lavdhalf{
-    width: 50%;
-    height: 100%;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.lavd-o{
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 80%;
 }
 .lavdotherhalf{
     width: 50%;
@@ -596,11 +600,10 @@ body{
     
 }
 .kal{
+    margin-top: 2vh;
     color: white;
     display: flex;
     width: 30vw;
-    padding-left: 6rem;
-    padding-top: 2rem;
     font-family: nats;
 }
 .pl{
@@ -609,7 +612,6 @@ body{
     font-weight: 100;
     letter-spacing: 0.05em;
     font-size: 1rem;
-    padding-left: 6rem;
     border-radius: 0.5em;
     line-height: 5vh;
     z-index: 100;
@@ -619,9 +621,8 @@ body{
     height: 6vh;
     min-height: 6vh;
     width: fit-content;
-    margin-left: 6rem;
-    margin-top: 2rem;
     overflow: hidden;
+    margin-top: 2vh;
     background-color:#000000;
     border: 0.8px solid rgba(218, 218, 218,0.3);
     border-radius: 3em;
@@ -726,7 +727,7 @@ body{
     z-index: -1;
 }
 .cont{
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -851,7 +852,7 @@ body{
     
 }
 .ivscont{
-    width: 90%;
+    width: 80%;
     height: max-content;
     display: flex;
     justify-content: center;
@@ -923,8 +924,8 @@ body{
     align-items: center;
 }
 .ebsgcont{
-    width: 90%;
-    max-width: 90%;
+    width: 80%;
+    max-width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
