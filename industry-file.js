@@ -198,3 +198,11 @@ function fakehai(i) {
         document.querySelector(".child-1").innerHTML = "Our advanced data annotation service, is playing a pivotal role in revolutionizing government operations with unparalleled precision. From public services to security, we enhance governmental processes, automate data analysis, and optimize overall efficiency. Our comprehensive approach covers citizen data analysis, automated security surveillance, infrastructure monitoring, and regulatory compliance through efficient data annotation. In essence, GovAI is reshaping the landscape of government operations through AI precision.";
     }
 }
+
+const menu_btn = document.querySelector('.hamburger');
+const mobile_menu = document.querySelector('.mobile-nav');
+
+menu_btn.addEventListener('click', function () {
+	menu_btn.classList.toggle('is-active');
+	mobile_menu.classList.toggle('is-active');
+});

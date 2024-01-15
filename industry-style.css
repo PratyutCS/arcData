@@ -177,6 +177,19 @@ body{
     justify-content: flex-start !important;
     align-items: center !important;
 }
+
+
+
+
+.ham{
+    display: none;
+}
+.mobile-nav{
+    display: none;
+}
+
+
+
 .indus{
     display: flex;
     justify-content: center;
