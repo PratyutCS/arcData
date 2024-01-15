@@ -215,3 +215,205 @@ body{
 .mobile-nav a:hover {
 	background-color: #24104f;
 }
+
+
+
+
+.indus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 40vh;
+}
+
+.indus-1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    color:white;
+    font-family: nats;
+}
+.indus-12 h1{
+    margin-top: -1.5vh;
+    font-size: 1.25em;
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    color:white;
+    font-family: nico;
+    margin-bottom: 1.5vh;
+}
+.indus-12 p{
+    font-size: 1em;
+    line-height: 2vh;
+    color:#A4A4A4;
+    width: 100%;
+    text-align: left;
+}
+.indus-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height:30%;
+    width: 90% !important;
+
+}
+.indus-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+}
+.indus-img img{
+    width: 80vw;
+    max-width: 80vw;
+    height: 27.5vh;
+    max-height: 27.5vh;
+}
+.div2{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+.pchild-icon{
+    position: absolute;
+    height: 50vh;
+    width: 7.5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:1.5vh;
+    transition: all 0.5s linear;
+    background: linear-gradient(90deg, #000000 40%,#00000000 100%);
+}
+.pchild-icon:hover{
+    width: 35%;
+}
+.no-indus > a > img{
+    height: 3.5vh;
+    width:3.5vw;
+    aspect-ratio: 16/9;
+    filter: invert(61%) sepia(7%) saturate(21%) hue-rotate(19deg) brightness(92%) contrast(87%);
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+.no-indus{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 1.5vw;
+}
+.no-indus a{
+    text-decoration: none;
+    color: #909090;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    transition: all 0.3s linear;
+}
+.no-indus:hover .karma{
+    color: white;
+    font-size: 1em;
+}
+.no-indus:hover .karmaa{
+    filter: none !important;
+    width: 3.8vw;
+    height: 3.8vh;
+}
+.karma-active{
+    filter: none !important;
+    width: 3.8vw !important;
+    height: 3.8vh !important;
+}
+.spa-active{
+    color: white;
+    font-size: 1em;
+}
+.spa{
+    font-family: nats;
+    line-height: 2vh;
+    opacity: 0;
+    transition: opacity 1s linear;
+    display: none;
+    transform-origin: left;
+    transform: translateX(-1vw);
+    cursor: pointer;
+}
+.pchild-icon:hover .spa{
+    display: block;
+    animation: transa 0.7s linear forwards;
+}
+@keyframes transa {
+    to{
+        opacity: 1;
+        transform: translateX(1vw);
+    }
+}
+.cchild{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.cchild-1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cchild-2{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    font-family: nats;
+    justify-content: center;
+    align-items: center;
+}
+.cchild-11{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-0{
+    width: 80vw;
+    max-width: 80vw;
+    height: 27.5vh;
+    max-height: 27.5vh;
+   
+}
+.cchild-22{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-1{
+    color: #A4A4A4;
+    width: 80%;
+    font-size: 0.85em;
+    line-height: 2vh;
+    letter-spacing: 0em;
+}
