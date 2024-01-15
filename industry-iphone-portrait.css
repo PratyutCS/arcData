@@ -363,7 +363,7 @@ body{
 @keyframes transa {
     to{
         opacity: 1;
-        transform: translateX(1vw);
+        transform: translateX(2vw);
     }
 }
 .cchild{
@@ -408,7 +408,8 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin-top: 5vh;
 }
 .child-1{
     color: #A4A4A4;
@@ -416,4 +417,15 @@ body{
     font-size: 0.85em;
     line-height: 2vh;
     letter-spacing: 0em;
+    text-align: justify;
+}
+::-webkit-scrollbar {
+    width: 0.5vw;
+}  
+::-webkit-scrollbar-track {
+    background: #000000; 
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 0.5vw;
+    background: darkgrey;
 }
