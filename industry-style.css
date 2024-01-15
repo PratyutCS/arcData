@@ -206,6 +206,7 @@ body{
     width: 90%;
     color:white;
     font-family: nats;
+    overflow: hidden;
 }
 .indus-1 h1{
     font-size: 3rem;
@@ -216,7 +217,7 @@ body{
 }
 .indus-1 p{
     line-height: 2;
-    color:white;
+    color:#BEBEBE;
 }
 .indus-12{
     display: flex;
@@ -225,6 +226,15 @@ body{
     align-items: flex-start;
     height: 100%;
     width: 50%;
+    animation: mr 1s linear forwards;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+@keyframes mr {
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
 }
 .indus-img{
     display: flex;
@@ -232,6 +242,9 @@ body{
     align-items: center;
     height: 100%;
     width: 50%;
+    animation: mr 1s linear forwards;
+    transform: translateX(50%);
+    opacity: 0;
 }
 .indus-img img{
     width: 35vw;
@@ -332,6 +345,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .cchild-1{
     height: 100%;
@@ -339,6 +353,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: -1;
+    animation: mr 1s linear forwards;
+    transform: translateX(-50%);
+    opacity: 0;
 }
 .cchild-2{
     display: flex;
@@ -348,6 +366,9 @@ body{
     font-family: nats;
     justify-content: space-evenly;
     align-items: center;
+    animation: mr 1s linear forwards;
+    transform: translateX(50%);
+    opacity: 0;
 }
 .cchild-11{
     width: 85%;
@@ -370,8 +391,10 @@ body{
     align-items: center;
 }
 .child-1{
-    color: white;
+    color: #BEBEBE;
     width: 100%;
+    font-family: nats;
+    text-align: justify;
 }
 
 
