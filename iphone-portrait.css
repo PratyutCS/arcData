@@ -693,6 +693,8 @@ body{
     align-items: center;
 }
 .atdsvg{
+    width: 100%;
+    max-width: 100%;
     position: absolute;
     margin-left: -100%;
     margin-bottom: -30%;
@@ -1177,6 +1179,7 @@ body{
     font-family: nats;
     max-width: 100%;
     line-height: 2vh;
+    font-size: 3vmin;
 }
 .ftop2{
     height: 100%;
