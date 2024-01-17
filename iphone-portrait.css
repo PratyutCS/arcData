@@ -19,14 +19,12 @@
 .loader{
     height: 100vh;
     width: 100%;
-    /* background-color: pink; */
     margin: 0;
     padding: 0;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: none; */
 }
 .loader > img{
     max-width: 5vh;
@@ -100,7 +98,6 @@ body{
     background-repeat: no-repeat;
     background-clip: text;
     background-position: right;
-    /* color: hsl(0 0% 100% / 0.2) !important; */
     transition: background-size 0.3s ease-in-out;
 }
 .undies:hover{
@@ -182,6 +179,10 @@ body{
 .hamburger.is-active .bar {
 	opacity: 0;
 }
+
+
+
+
 .mobile-nav {
     z-index: 100000;
 	position: fixed;
@@ -191,14 +192,12 @@ body{
 	min-height: 100vh;
 	display: block;
 	background-color: #12002F;
-	padding-top: 120px;
+	padding-top: 10vh;
 	transition: 0.4s;
 }
-
 .mobile-nav.is-active {
 	left: 0;
 }
-
 .mobile-nav a {
 	display: block;
 	width: 100%;
@@ -215,15 +214,43 @@ body{
 .mobile-nav a:hover {
 	background-color: #24104f;
 }
+.comh1{
+    width: 100%;
+    color: white;
+    font-family: nico;
+    height: 5vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.comdiv a{
+	display: block;
+	width: 80%;
+	max-width: 150px;
+	margin: 0 auto 12px;
+	text-align: center;
+	padding: 8px 12px;
+	background-color: #1f103F;
+    font-family: nats;
+	color: #FFF;
+	text-decoration: none;
+}
+
+
 .carsal{
-    /* margin-top: 10vh; */
     height: 35vh;
     width: 100%;
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: none; */
 }
 .body1{
     background-repeat: no-repeat;
