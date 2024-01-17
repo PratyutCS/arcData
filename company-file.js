@@ -16,14 +16,23 @@ menu_btn.addEventListener('click', function () {
 	mobile_menu.classList.toggle('is-active');
 });
 
-// let button = document.querySelector(".sub-001-active");
 
-// input.addEventListener("change", stateHandle);
 
-// function stateHandle() {
-//     if (document.querySelector(".input").value === "") {
-//         button.disabled = true; //button remains disabled
-//     } else {
-//         button.disabled = false;
-//     }
-// }
+function butth(i) {
+  if (i == 1) {
+    document.querySelector(".butth1").classList.add("butth-active");
+    document.querySelector(".butth2").classList.remove("butth-active");
+    document.querySelector(".butth3").classList.remove("butth-active");
+    document.querySelector(".img-1").src = "./assests/vis.jpg";
+  } else if (i == 2) {
+    document.querySelector(".butth1").classList.remove("butth-active");
+    document.querySelector(".butth2").classList.add("butth-active");
+    document.querySelector(".butth3").classList.remove("butth-active");
+    document.querySelector(".img-1").src = "./assests/bbc.gif";
+  } else {
+    document.querySelector(".butth1").classList.remove("butth-active");
+    document.querySelector(".butth2").classList.remove("butth-active");
+    document.querySelector(".butth3").classList.add("butth-active");
+    document.querySelector(".img-1").src = "./assests/audio.svg";
+  }
+}
