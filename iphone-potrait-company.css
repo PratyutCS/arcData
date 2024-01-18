@@ -15,6 +15,7 @@
     padding: 0;
 }
 
+
 body{
     background-color: black;
     width: 100%;
@@ -375,8 +376,6 @@ body{
     height: 25vh !important;
     max-height: 25vh !important;
     aspect-ratio: 16/9;
-    /* height: 23vh;
-    max-height: 23vh; */
     border-radius: 1.5em;
     border: 2px solid white;
 }
@@ -387,8 +386,57 @@ body{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 50%;
+    height: 100%;
 }
+
+.butth{
+    height: 6vh;
+    width: 75%;
+    overflow: hidden;
+    background-color:#000000;
+    border: 0.8px solid rgba(218, 218, 218,0.3);
+    border-radius: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+
+    
+}
+.butthright{
+    border: none !important;
+}
+.butth p{
+    margin: 0;
+    color: #999999;
+    font-family: nats;
+    font-size: 1em;
+    cursor: pointer;
+    width: 30%;
+    text-align: center;
+    line-height: 2.5vh;
+    border-right: 0.1px solid rgba(218, 218, 218,0.3);
+    
+}
+.butth p:hover{
+    color: #fff;
+}
+.butth-active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    border-radius: 2rem;
+    border: none !important;
+    border: 0.8px solid rgba(218, 218, 218,0.3) !important;
+    background-color: rgba(137, 134, 142, 0.2);
+    color: white !important;
+    position: relative;
+    
+   
+}
+
 .sub1-0{
     display: flex;
     justify-content: center;
@@ -480,7 +528,6 @@ body{
     max-height: fit-content;
     width: 100%;
     color: white;
-    background-color: pink;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -510,7 +557,9 @@ body{
     font-size: 2vh;
     color:rgb(233, 232, 232);
     text-align: center;
-    margin-bottom: 2.5vh;
+    top:0;
+    margin-top: 0vh;
+    margin-bottom: 5vh;
     width: 100%;
 }
 
@@ -551,7 +600,6 @@ body{
     height:100%;
     flex-direction: column;
     width: 80%;
-    background-color: rebeccapurple;
 }
 .why-img{
     width: 80%;
@@ -699,4 +747,124 @@ body{
 
 .team h1{
     font-weight: 100;
+}
+
+
+
+.footer{
+    margin-top: 5vh;
+    height:50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #343a40;
+    background-color: #0f1114;
+    /* display:none; */
+}
+.fcont{
+    height: 100%;
+    width: 90%;
+}
+.ftop{
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fbot{
+    border-top: 1px solid #515151;
+    height: 10vh;
+    max-height: 10vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fbot h5{
+    color: #939393;
+    font-family: nats;
+}
+.ftop1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ftop1 img{
+    width:20%;
+}
+.ftop1 p{
+    text-align: center;
+    margin-top: 2.5vh;
+    color: #939393;
+    font-family: nats;
+    max-width: 100%;
+    line-height: 2vh;
+    font-size: 3vmin;
+}
+.ftop2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.ftop2 div{
+    height: 100%;
+    width:33.33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.ftop2 div h1{
+    margin-top: 15%;
+    color: #FFFFFF;
+    font-family: nats;
+    font-size: 1em;
+}
+.ftop2 div a{
+    text-decoration: none;
+    color: #939393;
+    font-family: nats;
+    font-size: 0.7em;
+    transition: 0.3s linear;
+}
+.ftop2 div a:hover{
+    color: #FFFFFF;
+}
+.iconcont{
+    margin-top: 2.5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3vw;
+}
+.iconcont a{
+    text-decoration: none;
+}
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    color: #939393;
+    transition: 0.2s linear;
+}
+.fa-facebook-square:hover{
+    color:#fff;
+}
+
+.fa-skype:hover{
+    color:#fff;
+}
+.fa-linkedin:hover{
+    color:#Fff
 }
