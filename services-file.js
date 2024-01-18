@@ -35,7 +35,7 @@ function oh(i) {
     document.querySelector(".q4").classList.remove("p-active");
     document.querySelector(".q5").classList.remove("p-active");
     document.querySelector(".q6").classList.remove("p-active");
-    document.querySelector(".ch1").src = "";
+    document.querySelector(".ch1").src = "./assests/";
     document.querySelector(".ch2").innerHTML = "Image Collection";
     document.querySelector(".ch3").innerHTML = "";
   }
@@ -46,7 +46,7 @@ function oh(i) {
     document.querySelector(".q4").classList.remove("p-active");
     document.querySelector(".q5").classList.remove("p-active");
     document.querySelector(".q6").classList.remove("p-active");
-    document.querySelector(".ch1").src = "";
+    document.querySelector(".ch1").src = "./assests/";
     document.querySelector(".ch2").innerHTML = "Video Collection";
     document.querySelector(".ch3").innerHTML = "";
   }
@@ -57,7 +57,7 @@ function oh(i) {
     document.querySelector(".q4").classList.add("p-active");
     document.querySelector(".q5").classList.remove("p-active");
     document.querySelector(".q6").classList.remove("p-active");
-    document.querySelector(".ch1").src = "";
+    document.querySelector(".ch1").src = "./assests/";
     document.querySelector(".ch2").innerHTML = "Img & Vid Annotation";
     document.querySelector(".ch3").innerHTML = "";
   }
@@ -68,7 +68,7 @@ function oh(i) {
     document.querySelector(".q4").classList.remove("p-active");
     document.querySelector(".q5").classList.add("p-active");
     document.querySelector(".q6").classList.remove("p-active");
-    document.querySelector(".ch1").src = "";
+    document.querySelector(".ch1").src = "./assests/";
     document.querySelector(".ch2").innerHTML = "Audio Transcrition";
     document.querySelector(".ch3").innerHTML = "";
   }
