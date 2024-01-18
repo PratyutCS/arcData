@@ -35,7 +35,7 @@ function oh(i) {
     document.querySelector(".q4").classList.remove("p-active");
     document.querySelector(".q5").classList.remove("p-active");
     document.querySelector(".q6").classList.remove("p-active");
-    document.querySelector(".ch1").src = "./assests/";
+    document.querySelector(".ch1").src = "./assests/img2.png";
     document.querySelector(".ch2").innerHTML = "Image Collection";
     document.querySelector(".ch3").innerHTML = "";
   }
