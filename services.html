@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
-    <link rel="stylesheet" href="./services.css">
-    <link rel="stylesheet" href="./style2.css">
+    <title>ArcData Technology -</title>
+    <link rel="icon" type="image/x-icon" href="./assests/favicon.png">
+    <script defer src="./services-file.js"></script>
+    <!-- responsive styling -->
+    <link rel="stylesheet" media="all and (max-device-width: 480px) and (orientation:portrait)" href="iphone-portrait-services.css" />
+    <link rel="stylesheet" media="all and (max-device-width: 480px) and (orientation:landscape)" href="iphone-landscape-services.css" />
+    <link rel="stylesheet" media="all and (max-device-width: 1023px) and (min-device-width: 480px) and (orientation:portrait)" href="ipad-portrait-services.css" />
+    <link rel="stylesheet" media="all and (max-device-width: 1023px) and (min-device-width: 480px) and (orientation:landscape)" href="ipad-landscape-services.css" />
+    <link rel="stylesheet" media="all and (min-device-width: 1024px)" href="./services-style.css">
+    <link rel="stylesheet" media="all and (min-device-width: 1024px)" href="./style2.css">
 </head>
 <body>
+    <div class="loader">
+        <img src="./assests/favicon.png" alt="logo">       
+    </div>
+    <section class="hidden">
     <div class="navbar">
         <div class="navnav">
             <img src="./assests/logo.png" alt="logo">
             <div class="navlinks">
-                <a class="undies" href="#">HOME</a>
-                <a class="undies" href="./services.html">SERVICES</a>
+                <a class="undies" href="./index.html">HOME</a>
+                <a class="undies" href="#">SERVICES</a>
                 <a class="undies" href="./industries.html">INDUSTRY</a>
                 <div class="dropdown"> 
                     <button class="undies">COMPANY</button>
@@ -69,7 +80,7 @@
         </div>
     </div>          
     <nav class="mobile-nav">
-        <a href="#">HOME</a>
+        <a href="./index.html">HOME</a>
         <a href="#">SERVICES</a>
         <a href="./industries.html">INDUSTRY</a>
         <h1 class="comh1"><span>COMPANY : </span></h1>
@@ -124,6 +135,6 @@
    </div>
 
     <div></div>
-    
+</section>
 </body>
 </html>
