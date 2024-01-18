@@ -680,6 +680,120 @@
         font-weight: 100;
     }
 
+    
+        
+
+    .footer{
+        height:50vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-top: 1px solid #343a40;
+        background-color: #0f1114;
+    }
+    .fcont{
+        height: 100%;
+        width: 90%;
+    }
+    .ftop{
+        height: 45vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fbot{
+        border-top: 1px solid #515151;
+        height: 10vh;
+        max-height: 10vh;
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fbot h5{
+        color: #939393;
+        font-family: nats;
+    }
+    .ftop1{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .ftop1 img{
+        width:20%;
+    }
+    .ftop1 p{
+        margin-top: 2.5vh;
+        color: #939393;
+        font-family: nats;
+        max-width: 65%;
+        letter-spacing: 0.1rem;
+    }
+    .ftop2{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .ftop2 div{
+        height: 100%;
+        width:33.33%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ftop2 div h1{
+        margin-top: 27.5%;
+        color: #FFFFFF;
+        font-family: nats;
+    }
+    .ftop2 div a{
+        text-decoration: none;
+        color: #939393;
+        font-family: nats;
+        line-height: 5vh;
+        transition: 0.3s linear;
+    }
+    .ftop2 div a:hover{
+        color: #FFFFFF;
+    }
+    .iconcont{
+        margin-top: 2.5vh;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 1vw;
+    }
+    .iconcont a{
+        text-decoration: none;
+    }
+    .fa-brands, .fab {
+        font-family: "Font Awesome 6 Brands";
+        font-weight: 400;
+        color: #939393;
+        transition: 0.2s linear;
+    }
+    .fa-facebook-square:hover{
+        color:#fff;
+    }
+
+    .fa-skype:hover{
+        color:#fff;
+    }
+    .fa-linkedin:hover{
+        color:#Fff
+    }
+
 }
 @media only screen and (max-width: 1023px) and (min-width: 481px) and (orientation:portrait) {
     *{
@@ -1434,9 +1548,9 @@
     .team h1{
         font-weight: 100;
     }
-        
-
+    
     .footer{
+        margin-top: 5vh;
         height:50vh;
         width: 100%;
         display: flex;
@@ -1445,6 +1559,7 @@
         flex-direction: column;
         border-top: 1px solid #343a40;
         background-color: #0f1114;
+        /* display:none; */
     }
     .fcont{
         height: 100%;
@@ -1455,6 +1570,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
     .fbot{
         border-top: 1px solid #515151;
@@ -1472,25 +1588,27 @@
     }
     .ftop1{
         height: 100%;
-        width: 50%;
+        width: 100%;
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
     }
     .ftop1 img{
         width:20%;
     }
     .ftop1 p{
+        text-align: center;
         margin-top: 2.5vh;
         color: #939393;
         font-family: nats;
-        max-width: 65%;
-        letter-spacing: 0.1rem;
+        max-width: 100%;
+        line-height: 2vh;
+        font-size: 3vmin;
     }
     .ftop2{
         height: 100%;
-        width: 50%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1505,15 +1623,16 @@
         flex-direction: column;
     }
     .ftop2 div h1{
-        margin-top: 27.5%;
+        margin-top: 15%;
         color: #FFFFFF;
         font-family: nats;
+        font-size: 1em;
     }
     .ftop2 div a{
         text-decoration: none;
         color: #939393;
         font-family: nats;
-        line-height: 5vh;
+        font-size: 0.7em;
         transition: 0.3s linear;
     }
     .ftop2 div a:hover{
@@ -1523,9 +1642,10 @@
         margin-top: 2.5vh;
         width: 100%;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
+        justify-content: center;
         flex-direction: row;
-        gap: 1vw;
+        gap: 3vw;
     }
     .iconcont a{
         text-decoration: none;
@@ -1546,4 +1666,5 @@
     .fa-linkedin:hover{
         color:#Fff
     }
+
 }
