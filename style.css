@@ -1,12 +1,15 @@
 @font-face {
     font-family: nico;
+    font-style: normal;
+    font-weight: 100;
     src: url("./assests/Nico/NicoMoji-Regular.ttf");
 }
 @font-face {
     font-family: nats;
+    font-style: normal;
+    font-weight: normal;
     src: url("./assests/nats/NATS-Regular.ttf");
 }
-
 ::-webkit-scrollbar {
     width: 0.5vw;
 }  
@@ -17,7 +20,6 @@
     border-radius: 0.5vw;
     background: darkgrey;
 }
-
 @media only screen and (min-width: 1024px) {
     *{
         padding: 0;
