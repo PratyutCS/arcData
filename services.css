@@ -340,3 +340,17 @@ body{
 }
 
  /****************************************/
+
+
+ 
+
+::-webkit-scrollbar {
+    width: 0.5vw;
+}  
+::-webkit-scrollbar-track {
+    background: #000000; 
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 0.5vw;
+    background: darkgrey;
+}
