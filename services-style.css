@@ -196,9 +196,12 @@ body{
 }
 .serv-text h1{
     font-family: nico;
+    font-size: 4vmin;
 }
 .serv-text p{
+    font-size: 2.3vmin;
     font-family: nats;
+    color: #AFAFAF;
 }
 .serv-main{
     height: 100%;
@@ -284,10 +287,13 @@ body{
     width: 80%;
 }
 .serv-right-txt p{
+    font-size: 2vmin;
     font-family: nats;
+    color:#AFAFAF;
 }
 .serv-right-txt h1{
     font-family: nico;
+    font-size: 4vmin;
 }
 
 
