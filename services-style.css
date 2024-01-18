@@ -183,7 +183,6 @@ body{
 }
 .Services{
     height: 100vh;
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,9 +201,11 @@ body{
     font-family: nats;
 }
 .serv-main{
+    background-color: #0A0A0A;
+    border-radius: 1em;
+    border: 1px solid rgba(76, 159, 255,0.1);
     height: 100%;
     width: 90%;
-    background-color: pink;
 }
 .serv-div{
     display: flex;
@@ -249,11 +250,11 @@ body{
     background-color:orange;
 }
 .serv-right-img{
-    height: 70%;
+    height: 60%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
 }
 .serv-right-img img{
     width: 100%;
@@ -280,7 +281,6 @@ body{
 .serv_industry{
     
     display: flexbox;
-    background-color: blue;
     height: 100vh;
 }
 
@@ -312,18 +312,23 @@ body{
 }
 
 .serv_industry .indlist .indopt{
-    margin-top: 20vh;
-    background-color: #4C9FFF;
-    height: 60vh;
-    width: 55vh;
+    margin-top: 40vh;
+    
+    height: 65vh;
+    width: 48vh;
     
 }
 
-.serv_industry .indlist .indopt .image{
+.serv_industry .indlist .indopt .image {
     height: 30vh;
-    width:55vh;
-    background-color: pink;
+    width: 48vh;
+    
+    border: 1px solid #4B4B4B;
+    background: linear-gradient(180deg, #090909 0%, #4C9FFF 100%);
+    border-radius: 8px;
 }
+
+
 .serv_industry .indlist .indopt .heading{
     font-size: 5vh;
     color: white;
