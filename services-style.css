@@ -236,8 +236,21 @@ body{
     border-radius: 0.5em;
     width: 80%;
     height: 14%;
-    background-color: azure;
+    background-color: rgba(3, 3, 3,0.21);
+    border: 1px solid rgba(36, 35, 35,0.6);
     
+}
+.p-active{
+    display: flex;
+    font-family: nico;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+    width: 80%;
+    height: 14%;
+    background-color: rgba(36, 35, 35,.50) !important;
+    border: 1px solid rgba(255, 255, 255,.8);
 }
 .serv-right{
     display: flex;
@@ -247,7 +260,7 @@ body{
     align-items: center;
     height: 90%;
     width: 67.5%;
-    background-color:orange;
+    background-color:;
 }
 .serv-right-img{
     height: 60%;
@@ -301,7 +314,7 @@ body{
     align-items: center;
     list-style-type: none;
     height: 70px;
-    
+    flex-wrap: wrap; 
     justify-content: center;    
 }
 
