@@ -28,11 +28,11 @@ function butth(i) {
     document.querySelector(".butth1").classList.remove("butth-active");
     document.querySelector(".butth2").classList.add("butth-active");
     document.querySelector(".butth3").classList.remove("butth-active");
-    document.querySelector(".img-1").src = "./assests/bbc.gif";
+    document.querySelector(".img-1").src = "./assests/i/Group 76-compressed.jpg";
   } else {
     document.querySelector(".butth1").classList.remove("butth-active");
     document.querySelector(".butth2").classList.remove("butth-active");
     document.querySelector(".butth3").classList.add("butth-active");
-    document.querySelector(".img-1").src = "./assests/audio.svg";
+    document.querySelector(".img-1").src = "./assests/i/Group 75-compressed (1).jpg";
   }
 }

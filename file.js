@@ -5,7 +5,7 @@ window.addEventListener("load",function(){
   hiddenElements.forEach(function(element) {
     element.classList.remove("hidden");
   });
-  showSlides1();
+  // showSlides1();
 })
 
 
@@ -18,7 +18,7 @@ function oh(i) {
     document.querySelector(".qq2").classList.remove("active");
     document.querySelector(".q3").classList.remove("active");
     document.querySelector(".qq3").classList.remove("active");
-    document.querySelector(".oho").src = "./assests/Group 38.svg";
+    document.querySelector(".oho").src = "./assests/i/image.jpg";
     document.querySelector(".p1").innerHTML =
       "Leverage labelling services for faster and accurate annotations including 2D and 3D boundingboxes, polygons, polylines, landmarks, key-points, and semantic segmentation.";
   } else if (i == 2) {
@@ -84,7 +84,7 @@ function showSlides1() {
     slideIndex = 1;
   }
   slides[slideIndex - 1].style.display = "flex";
-  setTimeout(showSlides1, 10000); // Change image every 30 seconds
+  // setTimeout(showSlides1, 10000); // Change image every 30 seconds
 }
 
 const stickySections = [...document.querySelectorAll(".sticky_wrap")];
@@ -204,7 +204,7 @@ function butth(i) {
     document.querySelector(".butth2").classList.remove("butth-active");
     document.querySelector(".butth3").classList.remove("butth-active");
     document.querySelector(".butth4").classList.add("butth-active");
-    document.querySelector(".butthimg").src = "./assests/i/Group 99.png";
+    document.querySelector(".butthimg").src = "./assests/ta.svg";
   }
 }
 

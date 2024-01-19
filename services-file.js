@@ -26,8 +26,8 @@ function oh(i) {
     document.querySelector(".q4").classList.remove("p-active");
     document.querySelector(".q5").classList.remove("p-active");
     document.querySelector(".q6").classList.remove("p-active");
-    document.querySelector(".ch1").src = "./assests/data2.png";
-    document.querySelector(".ch2").innerHTML = "Data Collection";
+    document.querySelector(".ch1").src = "./assests/i/s.jpg";
+    document.querySelector(".ch2").innerHTML = "Image Annotation";
     document.querySelector(".ch3").innerHTML = "We offer great services  provide transcription, and annotation services with the perfec 11x We offer great services  provide transcription, and annotation services with the perfec 11xWe offer great services  provide transcription, and annotation services with the perfec 11x";
   } else if (i == 2) {
     document.querySelector(".q1").classList.remove("p-active");
