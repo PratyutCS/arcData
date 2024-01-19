@@ -204,7 +204,7 @@ function butth(i) {
     document.querySelector(".butth2").classList.remove("butth-active");
     document.querySelector(".butth3").classList.remove("butth-active");
     document.querySelector(".butth4").classList.add("butth-active");
-    document.querySelector(".butthimg").src = "./assests/Recipet.svg";
+    document.querySelector(".butthimg").src = "./assests/i/Group 99.png";
   }
 }
 
