@@ -514,7 +514,7 @@ body{
     align-items: center;
 }
 .fbot h5{
-    color: #939393;
+    color: #adb5bd;
     font-family: nats;
 }
 .ftop1{
@@ -530,17 +530,17 @@ body{
 }
 .ftop1 p{
     margin-top: 2.5vh;
-    color: #939393;
+    color: #adb5bd;
     font-family: nats;
     max-width: 65%;
-    letter-spacing: 0.1rem;
+    font-size: 1.75vmax;
+    line-height: 1.75vmax;
 }
 .ftop2{
     height: 100%;
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: row;
 }
 .ftop2 div{
@@ -548,20 +548,22 @@ body{
     width:33.33%;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     flex-direction: column;
 }
 .ftop2 div h1{
     margin-top: 27.5%;
     color: #FFFFFF;
     font-family: nats;
+    font-size: 2vmax;
+    line-height: 3.5vmax;
 }
 .ftop2 div a{
     text-decoration: none;
-    color: #939393;
+    color: #adb5bd;
     font-family: nats;
-    line-height: 5vh;
     transition: 0.3s linear;
+    font-size: 1.5vmax;
+    line-height: 3vmax;
 }
 .ftop2 div a:hover{
     color: #FFFFFF;

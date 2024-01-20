@@ -1072,7 +1072,6 @@ body{
 }
 
 
-
 .footer{
     margin-top: 5vh;
     height:50vh;
@@ -1107,8 +1106,10 @@ body{
     align-items: center;
 }
 .fbot h5{
-    color: #939393;
+    color: #adb5bd;
     font-family: nats;
+    font-size: 1.5vmax;
+    line-height: 1.5vmax;
 }
 .ftop1{
     height: 100%;
@@ -1124,7 +1125,7 @@ body{
 .ftop1 p{
     text-align: center;
     margin-top: 2.5vh;
-    color: #939393;
+    color: #adb5bd;
     font-family: nats;
     max-width: 100%;
     line-height: 2vh;
@@ -1150,13 +1151,15 @@ body{
     margin-top: 15%;
     color: #FFFFFF;
     font-family: nats;
-    font-size: 1em;
+    font-size: 2vmax;
+    line-height: 3vmax;
 }
 .ftop2 div a{
     text-decoration: none;
-    color: #939393;
+    color: #adb5bd;
     font-family: nats;
-    font-size: 0.7em;
+    font-size: 1.5vmax;
+    line-height: 2.5vmax;
     transition: 0.3s linear;
 }
 .ftop2 div a:hover{
