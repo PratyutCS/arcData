@@ -1021,7 +1021,7 @@ body{
     scale: 1 0;
     transform-origin: top;
     animation: scroll-watcher linear;
-    animation-timeline: view();
+    animation-timeline: view(25vh 10vh);
 }
 @keyframes scroll-watcher {
     to {

@@ -2883,6 +2883,8 @@
     .serv div h3{
         color: #FFFFFF;
         font-family: nats;
+        font-size: 1.75vmax;
+        line-height: 1.75vmax;
     }
     
     .serv div h5{
@@ -2914,7 +2916,7 @@
         font-family: nats;
         font-weight: 100;
         letter-spacing: 0.05em;
-        font-size: 5vh;
+        font-size: 3vmax;
     }
     .lavdhalf{
         display: flex;
@@ -2954,15 +2956,17 @@
         display: flex;
         width: 30vw;
         font-family: nats;
+        font-size: 2vmax;
+        line-height: 2.5vmax;
     }
     .pl{
         color: #999999;
         font-family: nats;
         font-weight: 100;
         letter-spacing: 0.05em;
-        font-size: 1rem;
+        font-size: 1.75vmax;
+        line-height: 1.75vmax;
         border-radius: 0.5em;
-        line-height: 5vh;
         z-index: 100;
     }
     
@@ -2987,15 +2991,15 @@
         border: none !important;
     }
     .butth p{
-        padding-right: 0.5vw;
-        padding-left: 0.5vw;
+        padding-right: 0.25vw;
+        padding-left: 0.25vw;
         color: #999999;
         font-family: nats;
-        font-size: 1.1rem;
+        font-size: 1.5vmax;
+        line-height: 1.5vmax;
         cursor: pointer;
-        width: 4vw;
+        width: 6vw;
         text-align: center;
-        line-height: 2.5vh;
         border-right: 0.1px solid rgba(218, 218, 218,0.3);
         transition-property: transform;
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -3012,8 +3016,8 @@
         border: 0.8px solid rgba(218, 218, 218,0.3) !important;
         background-color: rgba(72, 0, 234,0.05);
         color: white !important;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
         position: relative;
     }
     /*  
@@ -3022,6 +3026,7 @@
         border-radius: 1px; */
     
     .number{
+        margin-top: 5vh;
         height: 25vh;
         width: 100%;
         display: flex;
@@ -3033,7 +3038,8 @@
         color: #ACACAC;
         font-family: nico;
         letter-spacing: 0.125rem;
-        font-size: 2em;
+        font-size: 3vmax;
+        line-height: 3vmax;
         margin-bottom: 10vh;
     }
     .num{
@@ -3052,13 +3058,15 @@
         color: #4C9FFF;
         letter-spacing: 0.075em;
         font-family: nico;
-        line-height: 4vh;
+        font-size: 2vmax;
+        line-height: 3vmax;
     }
     .num div h3{
         color: #B4B4B4;
         letter-spacing: 0.125em;
         font-family: nico;
-        line-height: 3vh;
+        font-size: 2vmax;
+        line-height: 2vmax;
     }
     .atd{
         width: 100%;
@@ -3119,7 +3127,8 @@
         color: #999999;
         font-family: nats;
         letter-spacing: 0.1vw;
-        font-size: 1.2rem;
+        font-size: 2vmax;
+        line-height: 2.25vmax;
         font-weight: 100;
     
     }
@@ -3227,7 +3236,8 @@
         text-decoration: none;
         color: #ACACAC;
         font-family: nico;
-        line-height: 3vh;
+        font-size: 2vmax;
+        line-height: 2.5vmax;
         cursor: default;
         z-index: 1000;
     }
@@ -3283,27 +3293,53 @@
         color: #ACACAC;
         font-family: nico;
         letter-spacing: 0.125em;
-        font-size: 2.5em;
+        font-size: 3vmax;
+        line-height: 3vmax;
         text-align: center;
     }
     .ebsgcont p{
         max-width: 75%;
         color: #999999;
         font-family: nats;
-        letter-spacing: 0.075em;
-        font-size: 1.2em;
+        letter-spacing: 0.01em;
+        font-size: 2.25vmax;
+        line-height: 2.25vmax;
         text-align: center;
     }
     
     
     .verscr{
-        display: none !important;
+        background-image: url("./assests/phone.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 500vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .line{
+        height: 100%;
+        width: calc(2vw - 1px);
+        background-color: #4C9FFF;
+        z-index: -1;
+        scale: 1 0;
+        transform-origin: top;
+        animation: scroll-watcher linear;
+        animation-timeline: view(25vh 10vh);
+    }
+    @keyframes scroll-watcher {
+        to {
+            scale: 1 1;
+        }
     }
     
     
     
     .scroll_container {
         height: 200vh;
+        display: none !important;
     }  
     .horizontal_scroll {
         position: absolute;
@@ -3349,6 +3385,9 @@
         font-family: nico;
         color: #ACACAC;
         text-align: center;
+        letter-spacing: 0.1em;
+        font-size: 3vmax;
+        line-height: 3vmax;
     }
     .amsdscont{
         margin-top: 5vh;
@@ -3435,6 +3474,8 @@
         margin-top: 27.5%;
         color: #FFFFFF;
         font-family: nats;
+        font-size: 2.25vmax;
+        line-height: 3vmax;
     }
     .ftop2 div a{
         text-decoration: none;
@@ -3442,6 +3483,8 @@
         font-family: nats;
         line-height: 5vh;
         transition: 0.3s linear;
+        font-size: 1.5vmax;
+        line-height: 2vmax;
     }
     .ftop2 div a:hover{
         color: #FFFFFF;
@@ -3472,7 +3515,7 @@
     }
     .fa-linkedin:hover{
         color:#Fff
-    }   
+    }    
 }
 @media only screen and (max-width: 500px) and (orientation:landscape) {
     *{
