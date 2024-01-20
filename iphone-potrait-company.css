@@ -10,11 +10,23 @@
     font-weight: normal;
     src: url("./assests/nats/NATS-Regular.ttf");
 }
+
+::-webkit-scrollbar {
+    width: 0.5vw;
+}  
+::-webkit-scrollbar-track {
+    background: #000000; 
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 0.5vw;
+    background: darkgrey;
+}
+
+
 *{
     margin: 0;
     padding: 0;
 }
-
 
 body{
     background-color: black;
@@ -294,12 +306,15 @@ body{
 }
 .comp-12 h1{
     font-family: nico;
-    font-size: 2.5vh;
+    font-size: 2.5vmax;
+    line-height: 2.5vmax;
     text-align: center;
 }
 .comp-12 p{
+    color: #adb5bd;;
     font-family: nats;
-    font-size: 1.5vh;
+    font-size: 1.75vmax;
+    line-height: 4vmax;
 }
 .comp-2{
     display: flex;
@@ -361,7 +376,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50%;
+    height: 60%;
 }
 .img{
     display: flex;
@@ -386,11 +401,11 @@ body{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 40%;
 }
 
 .butth{
-    height: 6vh;
+    height: 100%;
     width: 75%;
     overflow: hidden;
     background-color:#000000;
@@ -409,7 +424,7 @@ body{
 }
 .butth p{
     margin: 0;
-    color: #999999;
+    color: #adb5bd;
     font-family: nats;
     font-size: 1em;
     cursor: pointer;
@@ -440,9 +455,9 @@ body{
 .sub1-0{
     display: flex;
     justify-content: center;
-    font-size: 1em;
+    font-size: 1.25vmax;
     width: 100%;
-    height: 30%;
+    height: 15%;
     align-items: center;
 }
 .sub1-1{
@@ -469,7 +484,7 @@ body{
     height: 4vh;
 }
 .sub1-2{
-    height: 70%;
+    height: 85%;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -515,16 +530,16 @@ body{
 
 }
 .sub1-3 p{
-    color:rgb(161, 158, 158);
+    color:#adb5bd;
     font-family: nats;
-    font-size: 1em;
-    line-height: 2vh;
+    font-size: 1.75vmax;
+    line-height: 2vmax;
 
 }
 
 .why{
     display:flex;
-    height: 55vh;
+    height: 40vh;
     max-height: fit-content;
     width: 100%;
     color: white;
@@ -548,18 +563,17 @@ body{
     color: #fff;
     width: 100%;
     height: 50%;
-    font-size: 2vh;
+    font-size: 3vmax;
+    line-height: 3vmax;
     font-family: nico;
-    line-height: 0vh;
 }
 .head-2{
     font-family: nico;
-    font-size: 2vh;
+    font-size: 2vmax;
     color:rgb(233, 232, 232);
     text-align: center;
     top:0;
     margin-top: 0vh;
-    margin-bottom: 5vh;
     width: 100%;
 }
 
@@ -578,9 +592,9 @@ body{
     place-items: center;
 }
 .pa{
-    line-height: 2vh;
-    font-size: 2vh;
-    color:rgb(172, 167, 167);
+    line-height: 1.75vmax;
+    font-size: 1.5vmax;
+    color:#adb5bd;
     font-family: nats;
     text-align: justify;
    
@@ -595,7 +609,7 @@ body{
 
 .why-1{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height:100%;
     flex-direction: column;
@@ -659,10 +673,13 @@ body{
     
 }
 .teamp p{
-    font-size: 0.8em;
+    color: #adb5bd;;
+    font-size: 1.5vmax;
+    line-height: 1.75vmax;
 }
 .teamp h1{
-    font-size: 1.5em;
+    font-size: 3vmax;
+    line-height: 3vmax;
 }
 
 .m-main{
@@ -724,29 +741,33 @@ body{
 }
 .m-main-1 h1{
     color: #4C9FFF;
-    font-size:0.8em;
-    line-height: 3vh;
+    font-size: 1.75vmax;
+    line-height: 2.5vmax;
     font-family: nico;
 }
 .m-main h1{
     font-family: nico;
-    line-height: 3vh;
-    font-size:0.8em;
+    font-size: 1.75vmax;
+    line-height: 2.5vmax;
     color: #4C9FFF;
 }
 .m-main p{
-    color:#8E8E8E;
-    font-size: 0.8em;
+    color:#adb5bd;
+    font-size: 1.25vmax;
+    line-height: 1.75vmax;
 
 }
 .m-main-1 p{
-    color:#8E8E8E;
-    font-size: 0.8em;
+    color: #adb5bd;
+    font-size: 1.25vmax;
+    line-height: 1.75vmax;
 
 }
 
 .team h1{
     font-weight: 100;
+    font-size: 1.75vmax;
+    line-height: 4vmax;
 }
 
 
@@ -785,8 +806,10 @@ body{
     align-items: center;
 }
 .fbot h5{
-    color: #939393;
+    color: #adb5bd;
     font-family: nats;
+    font-size: 1.5vmax;
+    line-height: 1.5vmax;
 }
 .ftop1{
     height: 100%;
@@ -802,7 +825,7 @@ body{
 .ftop1 p{
     text-align: center;
     margin-top: 2.5vh;
-    color: #939393;
+    color: #adb5bd;
     font-family: nats;
     max-width: 100%;
     line-height: 2vh;
@@ -828,13 +851,15 @@ body{
     margin-top: 15%;
     color: #FFFFFF;
     font-family: nats;
-    font-size: 1em;
+    font-size: 2vmax;
+    line-height: 3vmax;
 }
 .ftop2 div a{
     text-decoration: none;
-    color: #939393;
+    color: #adb5bd;
     font-family: nats;
-    font-size: 0.7em;
+    font-size: 1.5vmax;
+    line-height: 2.5vmax;
     transition: 0.3s linear;
 }
 .ftop2 div a:hover{
