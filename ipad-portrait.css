@@ -1,3 +1,26 @@
+@font-face {
+    font-family: nico;
+    font-style: normal;
+    font-weight: 100;
+    src: url("./assests/Nico/NicoMoji-Regular.ttf");
+}
+@font-face {
+    font-family: nats;
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assests/nats/NATS-Regular.ttf");
+}
+::-webkit-scrollbar {
+    width: 0.5vw;
+}  
+::-webkit-scrollbar-track {
+    background: #000000; 
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 0.5vw;
+    background: darkgrey;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -741,7 +764,7 @@ body{
 .atd{
     margin-top: 5vh;
     width: 100%;
-    height:270vh;
+    height:250vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -757,7 +780,7 @@ body{
 
 .cont{
     width: 90%;
-    height: 90%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -768,7 +791,7 @@ body{
     color: #ACACAC;
     font-family: nico;
     font-weight: 100;
-    font-size: 3vmin;
+    font-size: 3.75vmin;
 }
 .cont div{
     height: 40%;
@@ -986,6 +1009,24 @@ body{
     background-size: 100% 100%;
     height: 300vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    height: 100%;
+    width: calc(2vw - 1px);
+    background-color: #4C9FFF;
+    z-index: -1;
+    scale: 1 0;
+    transform-origin: top;
+    animation: scroll-watcher linear;
+    animation-timeline: view();
+}
+@keyframes scroll-watcher {
+    to {
+        scale: 1 1;
+    }
 }
 
 
@@ -1149,8 +1190,9 @@ body{
     margin-top: 2.5vh;
     color: #939393;
     font-family: nats;
-    max-width: 65%;
-    letter-spacing: 0.1rem;
+    max-width: 75%;
+    font-size: 2.5vmin;
+    line-height: 2.5vmin;
 }
 .ftop2{
     height: 100%;
@@ -1172,11 +1214,14 @@ body{
     margin-top: 27.5%;
     color: #FFFFFF;
     font-family: nats;
+    font-size: 2.5vmax;
+    line-height: 3vmax;
 }
 .ftop2 div a{
     text-decoration: none;
     color: #939393;
     font-family: nats;
+    font-size: 1.5vmax;
     line-height: 5vh;
     transition: 0.3s linear;
 }
