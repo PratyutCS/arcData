@@ -611,7 +611,7 @@
         font-family: nats;
     }
     .pl{
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         font-weight: 100;
         letter-spacing: 0.05em;
@@ -685,7 +685,7 @@
         flex-direction: column;
     }
     .number > h1{
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         letter-spacing: 0.125rem;
         font-size: 2em;
@@ -710,7 +710,7 @@
         line-height: 4vh;
     }
     .num div h3{
-        color: #B4B4B4;
+        color: #adb5bd;;
         letter-spacing: 0.125em;
         font-family: nico;
         line-height: 3vh;
@@ -736,7 +736,7 @@
         flex-direction: column;
     }
     .cont h1{
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         font-weight: 100;
         font-size: 1.5rem;
@@ -766,16 +766,15 @@
         width: 100%;
         color: #FFFFFF;
         font-family: nats;
-        letter-spacing: 0.1vw;
         font-weight: 100;
-        line-height: 5vh;
-        font-size: 1.3rem;
+        line-height: 5.5vmax;
+        font-size: 2vmax;
     }
     .cont div div p{
         width: 100%;
-        color: #999999;
+        color: #adb5bd;
+        line-height: 2vmax;
         font-family: nats;
-        letter-spacing: 0.1vw;
         font-size: 1.2rem;
         font-weight: 100;
     
@@ -819,7 +818,7 @@
     }  
     .content-details p{
         width: max-content !important;
-        color: #8a8a8a !important;
+        color: #adb5bd !important;
         font-size: 1em !important;
         font-family: nats;
         margin-left: 3vw;
@@ -839,9 +838,9 @@
     }
     .rip{
         width: 100%;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
-        letter-spacing: 0.1vw;
+        line-height: 2vmax;
         font-size: 3vh;
         text-align: right;
     }
@@ -882,7 +881,7 @@
     }
     .ivscont .nav div a{
         text-decoration: none;
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         line-height: 3vh;
         cursor: default;
@@ -908,7 +907,7 @@
         margin-top: 2.5vh;
         max-width: 80%;
         width: 80%;
-        color: #999999;
+        color: #adb5bd;;
         font-family: nats;
         font-weight: 100;
         letter-spacing: 0.125rem;
@@ -935,7 +934,7 @@
     }
     .ebsgcont h1{
         max-width: 100%;
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         letter-spacing: 0.125em;
         font-size: 2.5em;
@@ -943,7 +942,7 @@
     }
     .ebsgcont p{
         max-width: 75%;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         letter-spacing: 0.075em;
         font-size: 1.2em;
@@ -980,11 +979,13 @@
         height: 100vh;
     }  
     .red {
-        background-color: black;
         background-image: url("./assests/Gp41.svg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .amsds{
         width: 100%;
@@ -1097,7 +1098,7 @@
         font-family: nats;
         transition: 0.3s linear;
         font-size: 1vmax;
-        line-height: 3vmax;
+        line-height: 2vmax;
     }
     .ftop2 div a:hover{
         color: #FFFFFF;
@@ -1767,7 +1768,7 @@
         font-size: 0.79em;
     }
     .pl{
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         font-weight: 100;
         font-size: 0.8em;
@@ -1953,7 +1954,7 @@
         justify-content: center !important;
         align-items: center;
         width: 100%;
-        color: #999999;
+        color: #adb5bd;;
         font-family: nats;
         letter-spacing: 0.1vw;
         line-height: 4vmin;
