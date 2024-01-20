@@ -10,6 +10,16 @@
     font-weight: normal;
     src: url("./assests/nats/NATS-Regular.ttf");
 }
+::-webkit-scrollbar {
+    width: 0.5vw;
+}  
+::-webkit-scrollbar-track {
+    background: #000000; 
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 0.5vw;
+    background: darkgrey;
+}
 *{
     margin: 0;
     padding: 0;
