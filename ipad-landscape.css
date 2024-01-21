@@ -931,7 +931,6 @@ body{
     width: calc(60vw - 8px);
     max-width: calc(60vw - 8px);
     min-width: calc(60vw - 8px);
-    background-color: black;
     position: absolute;
     display: flex;
     justify-content: center;

@@ -12,6 +12,7 @@ window.addEventListener("load",function(){
 
 
 function oh(i) {
+  document.querySelector(".oho").style.display = "none";
   if (i == 1) {
     document.querySelector(".q1").classList.add("active");
     document.querySelector(".qq1").classList.add("active");
@@ -219,6 +220,7 @@ function lnd(){
   let xxd = document.querySelector(".oho");
   xxd.addEventListener("load",function(){
     console.log("all_fine");
+    xxd.style.display = "block";
     document.querySelector(".lddiv").style.display = "none";
   })
 }
