@@ -345,8 +345,6 @@
         width: 35vw;
         max-width: 35vw;
         opacity: 0.8;
-        /* filter: drop-shadow(12px 12px 25px #3F779F); */
-        /* animation: shake 2s linear infinite; */
         transform-origin: center;
     }
     @keyframes shake {
@@ -1616,8 +1614,6 @@
         width: 35vw;
         max-width: 35vw;
         opacity: 0.8;
-        /* filter: drop-shadow(12px 12px 25px #3F779F); */
-        /* animation: shake 2s linear infinite; */
         transform-origin: center;
     }
     @keyframes shake {
@@ -2952,8 +2948,6 @@
         width: 35vw;
         max-width: 35vw;
         opacity: 0.8;
-        /* filter: drop-shadow(12px 12px 25px #3F779F); */
-        /* animation: shake 2s linear infinite; */
         transform-origin: center;
     }
     @keyframes shake {
@@ -4299,8 +4293,6 @@
         width: 35vw;
         max-width: 35vw;
         opacity: 0.8;
-        filter: drop-shadow(6px 6px 17.5px #3F779F);
-        animation: shake 2s linear infinite;
         transform-origin: center;
     }
     @keyframes shake {
