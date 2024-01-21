@@ -5,6 +5,7 @@ window.addEventListener("load",function(){
   hiddenElements.forEach(function(element) {
     element.classList.remove("hidden");
   });
+  document.querySelector(".lddiv").style.display = "none";
   showSlides1();
 })
 
@@ -221,9 +222,3 @@ function lnd(){
     document.querySelector(".lddiv").style.display = "none";
   })
 }
-
-let xxd = document.querySelector(".oho");
-xxd.addEventListener("load",function(){
-  console.log("all_fine");
-  document.querySelector(".lddiv").style.display = "none";
-})
