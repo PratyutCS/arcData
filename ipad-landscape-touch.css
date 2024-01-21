@@ -321,12 +321,14 @@ iframe{
     
 }
 .bodysss{
-    height:50%;
     width: 100%;
+    height: max-content;
+    max-height: max-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 5%;
 }
 .iconsss{
     width: 100%;
@@ -338,10 +340,11 @@ iframe{
     align-items: center;
 } 
 .form-link{
-    height: 30vh;
+    height: 15vh;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 5vh;
 
 }
 .form-link1{
@@ -375,8 +378,6 @@ iframe{
     color: black;
     background-color: white;
 }
-
-
 
 
 .footer{
