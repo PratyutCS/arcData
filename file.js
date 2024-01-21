@@ -6,6 +6,7 @@ window.addEventListener("load",function(){
     element.classList.remove("hidden");
   });
   document.querySelector(".lddiv").style.display = "none";
+  document.querySelector(".lold").style.display = "none";
   showSlides1();
 })
 
@@ -181,6 +182,7 @@ mouseOverContainer.onmousemove = function (e) {
 };
 
 function butth(i) {
+  document.querySelector(".butthimg").style.display = "none";
   if (i == 1) {
     document.querySelector(".butth1").classList.add("butth-active");
     document.querySelector(".butth2").classList.remove("butth-active");
@@ -206,6 +208,8 @@ function butth(i) {
     document.querySelector(".butth4").classList.add("butth-active");
     document.querySelector(".butthimg").src = "./assests/ta.svg";
   }
+  document.querySelector(".lold").style.display = "flex";
+  lnd2();
 }
 
 const menu_btn = document.querySelector('.hamburger');
@@ -222,5 +226,16 @@ function lnd(){
     console.log("all_fine");
     xxd.style.display = "block";
     document.querySelector(".lddiv").style.display = "none";
+  })
+}
+
+
+
+function lnd2(){
+  let xxd = document.querySelector(".butthimg");
+  xxd.addEventListener("load",function(){
+    console.log("all_fine");
+    xxd.style.display = "block";
+    document.querySelector(".lold").style.display = "none";
   })
 }
