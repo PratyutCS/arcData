@@ -365,6 +365,9 @@
     .butth p:hover{
         color: #fff;
     }
+    .butthright{
+        border-right: none !important;
+    }
     .sub1-0{
         height: 35%;
         width: 80%;

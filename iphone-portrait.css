@@ -901,12 +901,11 @@ body{
     max-width: calc(60vw - 8px);
     min-width: calc(60vw - 8px);
     overflow: hidden;
-    border: 0.125em solid #4C9FFF;
 }
 .lddiv{
-    height: 60vh;
-    max-height: 60vh;
-    min-height: 60vh;
+    height: 25vh;
+    max-height: 25vh;
+    min-height: 25vh;
     width: calc(60vw - 8px);
     max-width: calc(60vw - 8px);
     min-width: calc(60vw - 8px);

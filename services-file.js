@@ -5,6 +5,7 @@ window.addEventListener("load",function(){
     hiddenElements.forEach(function(element) {
       element.classList.remove("hidden");
     });
+    document.querySelector(".lder").style.display = "none";
 })
 
 
@@ -12,13 +13,13 @@ const menu_btn = document.querySelector('.hamburger');
 const mobile_menu = document.querySelector('.mobile-nav');
 
 menu_btn.addEventListener('click', function () {
-  // alert("fked");
 	menu_btn.classList.toggle('is-active');
 	mobile_menu.classList.toggle('is-active');
 });
 
 
 function oh(i) {
+  document.querySelector(".ch1").style.display = "none";
   if (i == 1) {
     document.querySelector(".q1").classList.add("p-active");
     document.querySelector(".q2").classList.remove("p-active");
@@ -84,4 +85,16 @@ function oh(i) {
     document.querySelector(".ch2").innerHTML = "Speechdata Collection";
     document.querySelector(".ch3").innerHTML = "";
   }
+  document.querySelector(".lder").style.display = "flex";
+  lnd();
+}
+
+
+function lnd(){
+  let xxd = document.querySelector(".ch1");
+  xxd.addEventListener("load",function(){
+    console.log("all_fine");
+    document.querySelector(".ch1").style.display = "block";
+    document.querySelector(".lder").style.display = "none";
+  })
 }

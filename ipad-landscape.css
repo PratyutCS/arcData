@@ -923,7 +923,6 @@ body{
     max-width: calc(60vw - 8px);
     min-width: calc(60vw - 8px);
     overflow: hidden;
-    border: 0.125em solid #4C9FFF;
 }
 .lddiv{
     height: 60vh;
