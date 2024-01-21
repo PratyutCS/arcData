@@ -91,7 +91,7 @@
     .navlinks a {
         float: left;
         /* display: block; */
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -100,7 +100,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -143,7 +143,7 @@
         border: 0.05px solid rgba(136, 136, 136,0.3);
     }
     .dropdown-content a {
-        color: #bbbbbb;
+        color: #adb5bd;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
@@ -228,7 +228,7 @@
     }
     .indus-1 p{
         line-height: 2;
-        color:#BEBEBE;
+        color:#adb5bd;
     }
     .indus-12{
         display: flex;
@@ -303,7 +303,7 @@
     }
     .no-indus a{
         text-decoration: none;
-        color: #909090;
+        color: #adb5bd;
         font-size: 1rem;
         display: flex;
         justify-content: center;
@@ -402,7 +402,7 @@
         align-items: center;
     }
     .child-1{
-        color: #BEBEBE;
+        color: #adb5bd;
         width: 100%;
         font-family: nats;
         text-align: justify;
@@ -477,7 +477,7 @@
 
     .navlinks a {
         float: left;
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -486,7 +486,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -685,7 +685,7 @@
     .indus-12 p{
         font-size: 2vmin;
         line-height: 2.3vmin;
-        color:#A4A4A4;
+        color:#adb5bd;
         width: 100%;
         text-align: left;
     }
@@ -771,7 +771,7 @@
     }
     .no-indus a{
         text-decoration: none;
-        color: #909090;
+        color: #adb5bd;
         font-size: 0.8em;
         display: flex;
         justify-content: center;
@@ -874,7 +874,7 @@
         align-items: flex-start;
     }
     .child-1{
-        color: #A4A4A4;
+        color:#adb5bd;
         width: 100%;
         font-size: 2.25vmin;
         line-height: 2.5vmin;
@@ -957,7 +957,7 @@
     .navlinks a {
         float: left;
         /* display: block; */
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -966,7 +966,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -1009,7 +1009,7 @@
         border: 0.05px solid rgba(136, 136, 136,0.3);
     }
     .dropdown-content a {
-        color: #bbbbbb;
+        color: #adb5bd;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
@@ -1094,7 +1094,7 @@
     }
     .indus-1 p{
         line-height: 2;
-        color:#BEBEBE;
+        color:#adb5bd;
     }
     .indus-12{
         display: flex;
@@ -1169,7 +1169,7 @@
     }
     .no-indus a{
         text-decoration: none;
-        color: #909090;
+        color: #adb5bd;
         font-size: 1rem;
         display: flex;
         justify-content: center;
@@ -1268,7 +1268,7 @@
         align-items: center;
     }
     .child-1{
-        color: #BEBEBE;
+        color: #adb5bd;
         width: 100%;
         font-family: nats;
         text-align: justify;
@@ -1348,7 +1348,7 @@
     
     .navlinks a {
         float: left;
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -1357,7 +1357,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -1556,7 +1556,7 @@
     .indus-12 p{
         font-size: 1em;
         line-height: 2vh;
-        color:#A4A4A4;
+        color:#adb5bd;
         width: 100%;
         text-align: left;
     }
@@ -1636,7 +1636,7 @@
     }
     .no-indus a{
         text-decoration: none;
-        color: #909090;
+        color: #adb5bd;
         font-size: 0.8em;
         display: flex;
         justify-content: center;
@@ -1738,7 +1738,7 @@
         margin-top: 5vh;
     }
     .child-1{
-        color: #A4A4A4;
+        color: #adb5bd;
         width: 80%;
         font-size: 0.85em;
         line-height: 2vh;

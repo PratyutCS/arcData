@@ -91,7 +91,7 @@
     .navlinks a {
         float: left;
         /* display: block; */
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -100,7 +100,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -353,7 +353,7 @@
         margin: 0;
         padding-right:1vw;
         padding-left: 1vw;
-        color: #999999;
+        color: #adb5bd;;
         font-family: nats;
         font-size: 1.1rem;
         cursor: pointer;
@@ -436,7 +436,7 @@
         font-family: nico;
     }
     .sub1-3{
-        color:rgb(161, 158, 158);
+        color:#adb5bd;
         font-family: nats;
         font-weight: 100;
         font-size: 2.75vmin;
@@ -515,7 +515,7 @@
     }
     .pa{
         line-height: 3vh;
-        color:rgb(172, 167, 167);
+        color:#adb5bd;
         font-family: nats;
         font-size: 2.25vmin;
         line-height: 2.25vmin;
@@ -702,7 +702,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        border-top: 1px solid #343a40;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         background-color: #0f1114;
     }
     .fcont{
@@ -716,7 +716,7 @@
         align-items: center;
     }
     .fbot{
-        border-top: 1px solid #515151;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         height: 10vh;
         max-height: 10vh;
         width: 100%;
@@ -794,7 +794,7 @@
     .fa-brands, .fab {
         font-family: "Font Awesome 6 Brands";
         font-weight: 400;
-        color: #939393;
+        color: #adb5bd;;
         transition: 0.2s linear;
     }
     .fa-facebook-square:hover{
@@ -882,7 +882,7 @@
     
     .navlinks a {
         float: left;
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -891,7 +891,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -932,7 +932,7 @@
         background-color: #0E0E0E;
         color: rgb(16, 16, 16);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        border: 0.05px solid rgba(136, 136, 136,0.3);
+        
     }
     .dropdown-content a {
         color: rgb(112, 111, 111);
@@ -1100,7 +1100,7 @@
     .comp-12 p{
         font-family: nats;
         font-size:2.5vmin;
-        color: #c0b8b8;
+        color: #adb5bd;
     }
     .comp-2{
         display: flex;
@@ -1212,7 +1212,7 @@
     }
     .butth p{
         margin: 0;
-        color: #999999;
+        color: #adb5bd;;
         font-family: nats;
         font-size: 2.2vmin;
         cursor: pointer;
@@ -1318,7 +1318,7 @@
     
     }
     .sub1-3 p{
-        color:rgb(161, 158, 158);
+        color:#adb5bd;
         font-family: nats;
         font-size: 2.5vmin;
         line-height: 2.75vmin;
@@ -1383,7 +1383,7 @@
     .pa{
         line-height: 2vh;
         font-size: 2vh;
-        color:rgb(172, 167, 167);
+        color:#adb5bd;
         font-family: nats;
         text-align: justify;
        
@@ -1553,8 +1553,6 @@
         font-weight: 100;
     }
     
-    
-    
     .footer{
         margin-top: 5vh;
         height:50vh;
@@ -1563,7 +1561,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        border-top: 1px solid #343a40;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         background-color: #0f1114;
         /* display:none; */
     }
@@ -1579,7 +1577,7 @@
         flex-direction: column;
     }
     .fbot{
-        border-top: 1px solid #515151;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         height: 10vh;
         max-height: 10vh;
         width: 100%;
@@ -1589,7 +1587,7 @@
         align-items: center;
     }
     .fbot h5{
-        color: #939393;
+        color: #adb5bd;;
         font-family: nats;
     }
     .ftop1{
@@ -1661,7 +1659,7 @@
     .fa-brands, .fab {
         font-family: "Font Awesome 6 Brands";
         font-weight: 400;
-        color: #939393;
+        color: #adb5bd;;
         transition: 0.2s linear;
     }
     .fa-facebook-square:hover{
@@ -1747,7 +1745,7 @@
     .navlinks a {
         float: left;
         /* display: block; */
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -1756,7 +1754,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -2373,7 +2371,7 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            border-top: 1px solid #343a40;
+            border-top: 1px solid rgba(173, 181, 189,0.3);
             background-color: #0f1114;
         }
         .fcont{
@@ -2387,7 +2385,7 @@
             align-items: center;
         }
         .fbot{
-            border-top: 1px solid #515151;
+            border-top: 1px solid rgba(173, 181, 189,0.3);
             height: 10vh;
             max-height: 10vh;
             width: 100%;
@@ -2467,7 +2465,7 @@
         .fa-brands, .fab {
             font-family: "Font Awesome 6 Brands";
             font-weight: 400;
-            color: #939393;
+            color: #adb5bd;;
             transition: 0.2s linear;
         }
         .fa-facebook-square:hover{
@@ -2559,7 +2557,7 @@
     
     .navlinks a {
         float: left;
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -2568,7 +2566,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -3245,7 +3243,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        border-top: 1px solid #343a40;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         background-color: #0f1114;
         /* display:none; */
     }
@@ -3261,7 +3259,7 @@
         flex-direction: column;
     }
     .fbot{
-        border-top: 1px solid #515151;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         height: 10vh;
         max-height: 10vh;
         width: 100%;
@@ -3345,7 +3343,7 @@
     .fa-brands, .fab {
         font-family: "Font Awesome 6 Brands";
         font-weight: 400;
-        color: #939393;
+        color: #adb5bd;;
         transition: 0.2s linear;
     }
     .fa-facebook-square:hover{

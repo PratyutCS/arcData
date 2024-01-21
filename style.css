@@ -57,6 +57,8 @@
         padding: 0;
         margin: 0;
         background-color: #000000;
+        text-rendering: geometricPrecision;
+        -webkit-font-smoothing: antialiased;
     }
     .navbar{
         width: 100%;
@@ -93,7 +95,7 @@
     .navlinks a {
         float: left;
         /* display: block; */
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -102,7 +104,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -149,7 +151,7 @@
         border: 0.05px solid rgba(136, 136, 136,0.3);
     }
     .dropdown-content a {
-        color: #bbbbbb;
+        color: #adb5bd;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
@@ -246,7 +248,7 @@
         flex-direction: column;
     }
     .bd1ccbody h3{
-        color: #9D9D9D;
+        color: #adb5bd;
         font-weight: 50;
         font-family: nats;
         font-size: 2em;
@@ -447,7 +449,7 @@
         height: 1vh;
         width: 30%;
         border-radius: 2em;
-        background-color: #9D9D9D;
+        background-color: #adb5bd;
         opacity: 0.5;
     }
     .carindact{
@@ -463,9 +465,12 @@
         flex-direction: column;
     }
     .services h1{
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         letter-spacing: 0.1em;
+        font-size: 2vmax;
+        line-height: 2vmax;
+        font-weight: 100;
     }
     .serv{
         height: 12.5vh;
@@ -479,14 +484,14 @@
         height: 7.5vh;
         width: 15vw;
         /* border: 0.1em solid #4C9FFF; */
-        border-radius: 0.25em;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-direction: row;
         /* background-color: rgba(64,0,150,0.5); */
-        background: linear-gradient(rgba(0, 0, 0, 1) 50%, rgba(72, 0, 234, 0.2091430322128851) 100%);
         border: 0.3px solid rgba(76, 160, 255, 0.4);
+        background: linear-gradient(24deg, rgba(72,0,234,0.2) 1%, rgba(0,0,0,1) 45%);
+        
     }
     .serv div svg, .serv div svg rect{
         position: absolute;
@@ -495,16 +500,12 @@
         height: calc(7.5vh + 2px);
         width: calc(15vw + 2px);
         fill: transparent;
-        border-radius: 0.25em;
-        box-shadow: 3px 2px 20px 1px rgba(159, 37, 220, 0.2);
     }
     .serv div svg rect{
-        stroke-width: 3;
+        stroke-width: 1;
         stroke: #4C9FFF;
         stroke-dasharray: 0,600;
         animation: animaterev 1s linear forwards;
-        border-radius: 0.25em;
-        
     }
     .serv div svg rect:hover{
         animation: animate 1s linear forwards;
@@ -541,7 +542,7 @@
     }
     
     .serv div h5{
-        color: #9D9D9D;
+        color: #adb5bd;
         font-family: nats;
     }
     .lvd{
@@ -554,14 +555,12 @@
     .lavd{
         height: 70vh;
         width: 80%;
+        background: linear-gradient(24deg, rgba(72,0,234,0.3) -1%, rgba(0,0,0,1) 45%);
+        border: 0.3px solid rgba(76, 160, 255, 0.4);
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid rgba(76, 160, 255, 0.4);
         border-radius: 1.8em;
-        background: linear-gradient(rgba(0, 0, 0, 1) 10%, rgba(72, 0, 234, 0.2091430322128851) 70%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 1) 100%);
-        /* box-shadow: 2px 4px 20px 1px rgba(159, 37, 220, 0.2); */
-        /* filter: drop-shadow(0.03vh 0.03vh 0.9vh #a26cff); */
     }
     
     .lavd div h3{
@@ -644,7 +643,7 @@
     .butth p{
         padding-right: 0.5vw;
         padding-left: 0.5vw;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         font-size: 1.1rem;
         cursor: pointer;
@@ -671,11 +670,6 @@
         padding-bottom: 0.5rem;
         position: relative;
     }
-    /*  
-        height: 3vh;
-        border: 0.3px solid rgba(218, 218, 218,0.3);
-        border-radius: 1px; */
-    
     .number{
         height: 25vh;
         width: 100%;
@@ -687,8 +681,7 @@
     .number > h1{
         color: #adb5bd;
         font-family: nico;
-        letter-spacing: 0.125rem;
-        font-size: 2em;
+        font-size: 2vmax;
         margin-bottom: 10vh;
     }
     .num{
@@ -710,7 +703,7 @@
         line-height: 4vh;
     }
     .num div h3{
-        color: #adb5bd;;
+        color: #adb5bd;
         letter-spacing: 0.125em;
         font-family: nico;
         line-height: 3vh;
@@ -739,7 +732,7 @@
         color: #adb5bd;
         font-family: nico;
         font-weight: 100;
-        font-size: 1.5rem;
+        font-size: 2vmax;
     }
     .cont div{
         height: 35vh;
@@ -897,11 +890,55 @@
     .ivscont .nav div .active{
         color: #FFFFFF;
     }
-    .ivscont img{
+    .ld img{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        height: 100%;
+        max-height: 100%;
+        min-height: 100%;
+    }
+    .ld{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+        height: max-content;
         height: 60vh;
         max-height: 60vh;
+        min-height: 60vh;
+        width: calc(60vw - 8px);
+        max-width: calc(60vw - 8px);
+        min-width: calc(60vw - 8px);
+        overflow: hidden;
         border: 0.125em solid #4C9FFF;
     }
+    .lddiv{
+        height: 60vh;
+        max-height: 60vh;
+        min-height: 60vh;
+        width: calc(60vw - 8px);
+        max-width: calc(60vw - 8px);
+        min-width: calc(60vw - 8px);
+        background-color: black;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ldloader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
     .ivscont p{
         margin-bottom: 2.5vh;
         margin-top: 2.5vh;
@@ -936,8 +973,7 @@
         max-width: 100%;
         color: #adb5bd;
         font-family: nico;
-        letter-spacing: 0.125em;
-        font-size: 2.5em;
+        font-size: 2vmax;
         text-align: center;
     }
     .ebsgcont p{
@@ -1003,7 +1039,8 @@
     }
     .amsds div h1{
         font-family: nico;
-        color: #ACACAC;
+        color: #adb5bd;
+        font-size:2vmax;
         text-align: center;
     }
     .amsdscont{
@@ -1025,7 +1062,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        border-top: 1px solid #343a40;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         background-color: #0f1114;
     }
     .fcont{
@@ -1039,7 +1076,7 @@
         align-items: center;
     }
     .fbot{
-        border-top: 1px solid #515151;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         height: 10vh;
         max-height: 10vh;
         width: 100%;
@@ -1117,7 +1154,7 @@
     .fa-brands, .fab {
         font-family: "Font Awesome 6 Brands";
         font-weight: 400;
-        color: #939393;
+        color: #adb5bd;;
         transition: 0.2s linear;
     }
     .fa-facebook-square:hover{
@@ -1173,9 +1210,9 @@
         0% { transform: translateZ(-50px) rotateY(0deg);}
         100% { transform: translateZ(-50px) rotateY(360deg);}
     }
-
-
-
+    
+    
+    
     body{
         padding: 0;
         margin: 0;
@@ -1206,10 +1243,10 @@
         align-items: center;
         display: none;
     }
-
+    
     .navlinks a {
         float: left;
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -1218,7 +1255,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -1273,12 +1310,12 @@
     .dropdown-content a:hover{
         color:#4C9FFF;
         font-size: 1rem !important;
-    }
+      }
     .dropdown:hover .dropdown-content {
         display: flex !important;
         flex-direction: column;
     }
-
+    
     .ham{
         height: 100%;
         display: flex;
@@ -1292,7 +1329,7 @@
         width: 25px;
         height: 35px;
         cursor: pointer;
-
+    
         background: none;
         appearance: none;
         outline: none;
@@ -1317,8 +1354,8 @@
     .hamburger.is-active .bar {
         opacity: 0;
     }
-
-
+    
+    
     .mobile-nav {
         z-index: 100000;
         position: fixed;
@@ -1346,7 +1383,7 @@
         color: #FFF;
         text-decoration: none;
     }
-
+    
     .mobile-nav a:hover {
         background-color: #24104f;
     }
@@ -1388,7 +1425,7 @@
         flex-direction: column;
     }
     .bd1ccbody h3{
-        color: #9D9D9D;
+        color: #adb5bd;
         font-weight: 50;
         font-family: nats;
         text-align: center;
@@ -1481,7 +1518,7 @@
     .acha{
         max-width: 100vh;
     }
-
+    
     .acha1{
         width: 35vw;
         max-width: 35vw;
@@ -1591,7 +1628,7 @@
         height: 0.75vh;
         width: 25%;
         border-radius: 2em;
-        background-color: #9D9D9D;
+        background-color: #adb5bd;
         opacity: 0.5;
     }
     .carindact{
@@ -1609,7 +1646,7 @@
         /* display: none; */
     }
     .services h1{
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         font-size: 1em;
     }
@@ -1695,7 +1732,7 @@
         border-radius: 0.5vw;
         background: darkgrey;
     }
-
+    
     .lvd{
         height:65vh;
         width: 100%;
@@ -1717,7 +1754,7 @@
         box-shadow: 2px 4px 20px 1px rgba(159, 37, 220, 0.15);
         /* filter: drop-shadow(0.03vh 0.03vh 0.9vh #a26cff); */
     }
-
+    
     .lavd div h3{
         color: #FFFFFF;
         font-family: nats;
@@ -1727,7 +1764,7 @@
         text-align: center;
         padding-top: 2rem;
     }
-
+    
     .lavd-o{
         display: flex;
         align-items: center;
@@ -1777,7 +1814,7 @@
         line-height: 5vh;
         z-index: 100;
     }
-
+    
     .butth{
         height: 6vh;
         min-height: 6vh;
@@ -1792,7 +1829,7 @@
         align-items: center;
         flex-direction: row !important;
         flex-wrap: wrap;
-
+    
         
     }
     .butthright{
@@ -1801,7 +1838,7 @@
     .butth p{
         padding-right: 0.5vw;
         padding-left: 0.5vw;
-        color: #999999;
+        color: #adb5bd;
         width:15vw;
         font-family: nats;
         font-size: 0.7rem;
@@ -1832,7 +1869,7 @@
         height: 3vh;
         border: 0.3px solid rgba(218, 218, 218,0.3);
         border-radius: 1px; */
-
+    
     .number{
         height: 25vh;
         width: 100%;
@@ -1842,7 +1879,7 @@
         flex-direction: column;
     }
     .number > h1{
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         letter-spacing: 0.125rem;
         font-size: 2em;
@@ -1888,7 +1925,7 @@
         margin-bottom: -30%;
         z-index: -1;
     }
-
+    
     .cont{
         width: 90%;
         height: 100%;
@@ -1897,9 +1934,9 @@
         align-items: center;
         flex-direction: column;
     }
-
+    
     .cont h1{
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         font-weight: 100;
         font-size: 3.75vmin;
@@ -1928,7 +1965,7 @@
         justify-content: center;
         width: 100%;
     } */
-
+    
     .atd-img{
         height: 40%;
         display: flex !important;
@@ -1954,17 +1991,17 @@
         justify-content: center !important;
         align-items: center;
         width: 100%;
-        color: #adb5bd;;
+        color: #adb5bd;
+        text-align: center;
         font-family: nats;
-        letter-spacing: 0.1vw;
-        line-height: 4vmin;
-        font-size: 3vmin;
+        line-height: 3.4vmin;
+        font-size: 2.7vmin;
         font-weight: 100;
-
+    
     }
     .contoverlay img{
         max-height: calc(36vw - 4px) !important;
-
+    
         max-width: calc(70vw - 4px) !important;
     }
     .contoverlay{
@@ -1997,9 +2034,8 @@
     }
     .rip{
         width: 100%;
-        color: #999999;
+        color:#adb5bd;
         font-family: nats;
-        letter-spacing: 0.1vw;
         font-size: 3vh;
         text-align: center;
     }
@@ -2039,7 +2075,7 @@
     }
     .ivscont .nav div a{
         text-decoration: none;
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         line-height: 3vh;
         cursor: default;
@@ -2055,19 +2091,60 @@
     .ivscont .nav div .active{
         color: #FFFFFF;
     }
-    .ivscont img{
+    .ld img{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        height: 100%;
+        max-height: 100%;
+        min-height: 100%;
+    }
+    .ld{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+        height: max-content;
         height: 30vh;
         max-height: 30vh;
-        width: 90%;
-        max-width: 90%;
+        min-height: 30vh;
+        width: calc(60vw - 8px);
+        max-width: calc(60vw - 8px);
+        min-width: calc(60vw - 8px);
+        overflow: hidden;
         border: 0.125em solid #4C9FFF;
     }
+    .lddiv{
+        height: 60vh;
+        max-height: 60vh;
+        min-height: 60vh;
+        width: calc(60vw - 8px);
+        max-width: calc(60vw - 8px);
+        min-width: calc(60vw - 8px);
+        background-color: black;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ldloader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
     .ivscont p{
         margin-bottom: 2.5vh;
         margin-top: 2.5vh;
         max-width: 80%;
         width: 80%;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         font-weight: 100;
         letter-spacing: 0.125rem;
@@ -2077,10 +2154,10 @@
     .gbtn{
         margin-bottom: 7.5vh !important;
     }
-
-
-
-
+    
+    
+    
+    
     .ebsg{
         width: 100%;
         height: 25vh;
@@ -2098,21 +2175,21 @@
     }
     .ebsgcont h1{
         max-width: 100%;
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         font-size: 1em;
         text-align: center;
     }
     .ebsgcont p{
         max-width: 75%;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         font-size: 0.7em;
         text-align: center;
     }
-
-
-
+    
+    
+    
     .verscr{
         background-image: url("./assests/phone.svg");
         background-position: center;
@@ -2131,17 +2208,17 @@
         z-index: -1;
         scale: 1 0;
         transform-origin: top;
-        animation: scroll-watcher linear;
-        animation-timeline: view();
+        animation: scroll-watcher linear forwards;
+        animation-timeline: view(25vh 10vh);
     }
     @keyframes scroll-watcher {
         to {
             scale: 1 1;
         }
     }
-
-
-
+    
+    
+    
     .scroll_container {
         height: 200vh;
         display: none !important;
@@ -2172,9 +2249,9 @@
         background-repeat: no-repeat;
         background-size: contain;
     }
-
+    
     .number{
-        height: 25vh;
+        height: max-content;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -2183,7 +2260,7 @@
         /* display: none; */
     }
     .number > h1{
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         font-size: 1em;
         margin-bottom: 5vh;
@@ -2212,9 +2289,9 @@
         font-size: 0.7em;
         line-height: 1.5vh;
     }
-
-
-
+    
+    
+    
     .amsds{
         width: 100%;
         height: 55vh;
@@ -2232,7 +2309,7 @@
     .amsds div h1{
         font-family: nico;
         font-size: 1em;
-        color: #ACACAC;
+        color: #adb5bd;
         text-align: center;
     }
     .amsdscont{
@@ -2247,11 +2324,11 @@
         max-height: 100%;
         max-width: 100%;
     }
-
-
-
-
-
+    
+    
+    
+    
+    
     .footer{
         height:50vh;
         width: 100%;
@@ -2259,7 +2336,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        border-top: 1px solid #343a40;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         background-color: #0f1114;
     }
     .fcont{
@@ -2273,7 +2350,7 @@
         align-items: center;
     }
     .fbot{
-        border-top: 1px solid #515151;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         height: 10vh;
         max-height: 10vh;
         width: 100%;
@@ -2283,7 +2360,7 @@
         align-items: center;
     }
     .fbot h5{
-        color: #939393;
+        color: #adb5bd;;
         font-family: nats;
     }
     .ftop1{
@@ -2299,14 +2376,14 @@
     }
     .ftop1 p{
         margin-top: 2.5vh;
-        color: #939393;
+        color: #adb5bd;;
         font-family: nats;
         max-width: 75%;
-        font-size: 2.5vmin;
+        font-size: 1.75vmin;
         line-height: 2.5vmin;
     }
     .ftop2{
-        height: 100%;
+        height: 50%;
         width: 50%;
         display: flex;
         justify-content: center;
@@ -2318,21 +2395,22 @@
         width:33.33%;
         display: flex;
         justify-content: flex-start;
+        align-items: center;
         flex-direction: column;
     }
     .ftop2 div h1{
         margin-top: 27.5%;
         color: #FFFFFF;
         font-family: nats;
-        font-size: 2.5vmax;
-        line-height: 3vmax;
+        font-size: 2vmax;
+        line-height: 4vmax;
     }
     .ftop2 div a{
         text-decoration: none;
-        color: #939393;
+        color: #adb5bd;;
         font-family: nats;
-        font-size: 1.5vmax;
-        line-height: 5vh;
+        font-size: 1.2vmax;
+        line-height: 2vmax;
         transition: 0.3s linear;
     }
     .ftop2 div a:hover{
@@ -2352,13 +2430,13 @@
     .fa-brands, .fab {
         font-family: "Font Awesome 6 Brands";
         font-weight: 400;
-        color: #939393;
+        color: #adb5bd;;
         transition: 0.2s linear;
     }
     .fa-facebook-square:hover{
         color:#fff;
     }
-
+    
     .fa-skype:hover{
         color:#fff;
     }
@@ -2439,7 +2517,7 @@
     .navlinks a {
         float: left;
         /* display: block; */
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -2448,7 +2526,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -2592,7 +2670,7 @@
         flex-direction: column;
     }
     .bd1ccbody h3{
-        color: #9D9D9D;
+        color: #adb5bd;
         font-weight: 50;
         font-family: nats;
         font-size: 2vmax;
@@ -2655,6 +2733,8 @@
     }
     .ccbody > video{
         height: 45vh;
+        max-height: 45vh;
+        max-width: 50%;
     }
     .cccbody > h3{
         font-weight: 50;
@@ -2794,7 +2874,7 @@
         height: 1vh;
         width: 30%;
         border-radius: 2em;
-        background-color: #9D9D9D;
+        background-color: #adb5bd;
         opacity: 0.5;
     }
     .carindact{
@@ -2810,8 +2890,10 @@
         flex-direction: column;
     }
     .services h1{
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
+        font-size: 3vmax;
+        line-height: 3vmax;
         letter-spacing: 0.1em;
     }
     .serv{
@@ -2890,7 +2972,7 @@
     }
     
     .serv div h5{
-        color: #9D9D9D;
+        color: #adb5bd;
         font-family: nats;
     }
     .lvd{
@@ -2958,11 +3040,11 @@
         display: flex;
         width: 30vw;
         font-family: nats;
-        font-size: 2vmax;
-        line-height: 2.5vmax;
+        font-size: 1.75vmax;
+        line-height: 2.25vmax;
     }
     .pl{
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         font-weight: 100;
         letter-spacing: 0.05em;
@@ -2995,7 +3077,7 @@
     .butth p{
         padding-right: 0.25vw;
         padding-left: 0.25vw;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         font-size: 1.5vmax;
         line-height: 1.5vmax;
@@ -3029,7 +3111,8 @@
     
     .number{
         margin-top: 5vh;
-        height: 25vh;
+        margin-bottom: 5vh;
+        height: max-content;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -3037,9 +3120,8 @@
         flex-direction: column;
     }
     .number > h1{
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
-        letter-spacing: 0.125rem;
         font-size: 3vmax;
         line-height: 3vmax;
         margin-bottom: 10vh;
@@ -3058,21 +3140,19 @@
     }
     .num div h1{
         color: #4C9FFF;
-        letter-spacing: 0.075em;
         font-family: nico;
         font-size: 2vmax;
         line-height: 3vmax;
     }
     .num div h3{
         color: #B4B4B4;
-        letter-spacing: 0.125em;
         font-family: nico;
         font-size: 2vmax;
         line-height: 2vmax;
     }
     .atd{
         width: 100%;
-        height:200vh;
+        height:220vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -3091,10 +3171,11 @@
         flex-direction: column;
     }
     .cont h1{
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         font-weight: 100;
-        font-size: 1.5rem;
+        font-size: 3vmax;
+        line-height: 3vmax;
     }
     .cont div{
         height: 35vh;
@@ -3126,7 +3207,7 @@
     }
     .cont div div p{
         width: 100%;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         letter-spacing: 0.1vw;
         font-size: 2vmax;
@@ -3193,7 +3274,7 @@
     }
     .rip{
         width: 100%;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         letter-spacing: 0.1vw;
         font-size: 3vh;
@@ -3236,7 +3317,7 @@
     }
     .ivscont .nav div a{
         text-decoration: none;
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         font-size: 2vmax;
         line-height: 2.5vmax;
@@ -3253,17 +3334,60 @@
     .ivscont .nav div .active{
         color: #FFFFFF;
     }
-    .ivscont img{
+    .ld img{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        height: 100%;
+        max-height: 100%;
+        min-height: 100%;
+    }
+    .ld{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+        height: max-content;
         height: 60vh;
         max-height: 60vh;
+        min-height: 60vh;
+        width: calc(60vw - 8px);
+        max-width: calc(60vw - 8px);
+        min-width: calc(60vw - 8px);
+        overflow: hidden;
         border: 0.125em solid #4C9FFF;
     }
+    .lddiv{
+        height: 60vh;
+        max-height: 60vh;
+        min-height: 60vh;
+        width: calc(60vw - 8px);
+        max-width: calc(60vw - 8px);
+        min-width: calc(60vw - 8px);
+        background-color: black;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ldloader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
     .ivscont p{
         margin-bottom: 2.5vh;
         margin-top: 2.5vh;
         max-width: 80%;
         width: 80%;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         font-weight: 100;
         font-size: 3vmin;
@@ -3291,17 +3415,17 @@
         flex-direction: column;
     }
     .ebsgcont h1{
+        text-align: center;
         max-width: 100%;
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
-        letter-spacing: 0.125em;
         font-size: 3vmax;
         line-height: 3vmax;
         text-align: center;
     }
     .ebsgcont p{
         max-width: 75%;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         letter-spacing: 0.01em;
         font-size: 2.25vmax;
@@ -3328,7 +3452,7 @@
         z-index: -1;
         scale: 1 0;
         transform-origin: top;
-        animation: scroll-watcher linear;
+        animation: scroll-watcher linear forwards;
         animation-timeline: view(25vh 10vh);
     }
     @keyframes scroll-watcher {
@@ -3371,7 +3495,9 @@
     }
     .amsds{
         width: 100%;
-        height: 125vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        height: max-content;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -3385,9 +3511,8 @@
     }
     .amsds div h1{
         font-family: nico;
-        color: #ACACAC;
+        color: #adb5bd;
         text-align: center;
-        letter-spacing: 0.1em;
         font-size: 3vmax;
         line-height: 3vmax;
     }
@@ -3434,7 +3559,7 @@
         align-items: center;
     }
     .fbot h5{
-        color: #939393;
+        color: #adb5bd;;
         font-family: nats;
     }
     .ftop1{
@@ -3450,7 +3575,7 @@
     }
     .ftop1 p{
         margin-top: 2.5vh;
-        color: #939393;
+        color: #adb5bd;;
         font-family: nats;
         max-width: 75%;
         font-size: 2.5vmin;
@@ -3461,6 +3586,7 @@
         width: 50%;
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-direction: row;
     }
     .ftop2 div{
@@ -3468,6 +3594,7 @@
         width:33.33%;
         display: flex;
         justify-content: flex-start;
+        align-items: center;
         flex-direction: column;
     }
     .ftop2 div h1{
@@ -3479,7 +3606,7 @@
     }
     .ftop2 div a{
         text-decoration: none;
-        color: #939393;
+        color: #adb5bd;;
         font-family: nats;
         line-height: 5vh;
         transition: 0.3s linear;
@@ -3503,7 +3630,7 @@
     .fa-brands, .fab {
         font-family: "Font Awesome 6 Brands";
         font-weight: 400;
-        color: #939393;
+        color: #adb5bd;;
         transition: 0.2s linear;
     }
     .fa-facebook-square:hover{
@@ -3515,7 +3642,7 @@
     }
     .fa-linkedin:hover{
         color:#Fff
-    }    
+    }       
 }
 @media only screen and (max-width: 500px) and (orientation:landscape) {
     *{
@@ -3589,7 +3716,7 @@
     
     .navlinks a {
         float: left;
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -3598,7 +3725,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -3800,7 +3927,7 @@
     }
     .bd1ccbody h3{
         text-align: center;
-        color: #9D9D9D;
+        color: #adb5bd;
         font-weight: 50;
         font-family: nats;
         font-size: 1em;
@@ -3983,7 +4110,7 @@
         height: 0.75vh;
         width: 25%;
         border-radius: 2em;
-        background-color: #9D9D9D;
+        background-color: #adb5bd;
         opacity: 0.5;
     }
     .carindact{
@@ -4004,7 +4131,7 @@
         /* display: none; */
     }
     .services h1{
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         font-size: 1em;
     }
@@ -4165,7 +4292,7 @@
         font-size: 0.79em;
     }
     .pl{
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         font-weight: 100;
         font-size: 0.8em;
@@ -4198,7 +4325,7 @@
     .butth p{
         padding-right: 0.5vw;
         padding-left: 0.5vw;
-        color: #999999;
+        color: #adb5bd;
         width:15vw;
         font-family: nats;
         font-size: 0.7rem;
@@ -4253,7 +4380,7 @@
         flex-direction: column;
     }
     .cont h1{
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         font-weight: 100;
         font-size: 1em;
@@ -4294,7 +4421,7 @@
     }
     .cont div div p{
         width: 100%;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         letter-spacing: 0.1vw;
         font-size: 0.7rem;
@@ -4333,7 +4460,7 @@
     }
     .rip{
         width: 100%;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         letter-spacing: 0.1vw;
         font-size: 3vh;
@@ -4379,7 +4506,7 @@
     }
     .ivscont .nav div a{
         text-decoration: none;
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         line-height: 3vh;
         font-size: 0.8em;
@@ -4397,17 +4524,60 @@
     .ivscont .nav div .active{
         color: #FFFFFF;
     }
-    .ivscont img{
-        height: 20vh;
-        max-height: 20vh;
+    .ld img{
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        height: 100%;
+        max-height: 100%;
+        min-height: 100%;
+    }
+    .ld{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+        height: max-content;
+        height: 25vh;
+        max-height: 25vh;
+        min-height: 25vh;
+        width: calc(60vw - 8px);
+        max-width: calc(60vw - 8px);
+        min-width: calc(60vw - 8px);
+        overflow: hidden;
         border: 0.125em solid #4C9FFF;
     }
+    .lddiv{
+        height: 60vh;
+        max-height: 60vh;
+        min-height: 60vh;
+        width: calc(60vw - 8px);
+        max-width: calc(60vw - 8px);
+        min-width: calc(60vw - 8px);
+        background-color: black;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ldloader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
     .ivscont p{
         margin-bottom: 2.5vh;
         margin-top: 2.5vh;
         max-width: 90%;
         width: 90%;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         font-weight: 100;
         font-size: 0.7em;
@@ -4438,14 +4608,14 @@
     }
     .ebsgcont h1{
         max-width: 100%;
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         font-size: 1em;
         text-align: center;
     }
     .ebsgcont p{
         max-width: 75%;
-        color: #999999;
+        color: #adb5bd;
         font-family: nats;
         font-size: 0.7em;
         text-align: center;
@@ -4514,7 +4684,7 @@
     }
     
     .number{
-        height: 25vh;
+        height: max-content;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -4523,7 +4693,7 @@
         /* display: none; */
     }
     .number > h1{
-        color: #ACACAC;
+        color: #adb5bd;
         font-family: nico;
         font-size: 1em;
         margin-bottom: 5vh;
@@ -4547,7 +4717,7 @@
         line-height: 2vh;
     }
     .num div h3{
-        color: #B4B4B4;
+        color: #adb5bd;
         font-family: nico;
         font-size: 0.7em;
         line-height: 1.5vh;
@@ -4572,7 +4742,7 @@
     .amsds div h1{
         font-family: nico;
         font-size: 1em;
-        color: #ACACAC;
+        color: #adb5bd;
         text-align: center;
     }
     .amsdscont{
@@ -4589,7 +4759,6 @@
     }
     
     
-    
     .footer{
         margin-top: 5vh;
         height:50vh;
@@ -4598,7 +4767,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        border-top: 1px solid #343a40;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         background-color: #0f1114;
         /* display:none; */
     }
@@ -4614,7 +4783,7 @@
         flex-direction: column;
     }
     .fbot{
-        border-top: 1px solid #515151;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         height: 10vh;
         max-height: 10vh;
         width: 100%;
@@ -4624,8 +4793,10 @@
         align-items: center;
     }
     .fbot h5{
-        color: #939393;
+        color: #adb5bd;
         font-family: nats;
+        font-size: 1.5vmax;
+        line-height: 1.5vmax;
     }
     .ftop1{
         height: 100%;
@@ -4641,7 +4812,7 @@
     .ftop1 p{
         text-align: center;
         margin-top: 2.5vh;
-        color: #939393;
+        color: #adb5bd;
         font-family: nats;
         max-width: 100%;
         line-height: 2vh;
@@ -4667,13 +4838,15 @@
         margin-top: 15%;
         color: #FFFFFF;
         font-family: nats;
-        font-size: 1em;
+        font-size: 2vmax;
+        line-height: 3vmax;
     }
     .ftop2 div a{
         text-decoration: none;
-        color: #939393;
+        color: #adb5bd;
         font-family: nats;
-        font-size: 0.7em;
+        font-size: 1.5vmax;
+        line-height: 2vmax;
         transition: 0.3s linear;
     }
     .ftop2 div a:hover{
@@ -4694,7 +4867,7 @@
     .fa-brands, .fab {
         font-family: "Font Awesome 6 Brands";
         font-weight: 400;
-        color: #939393;
+        color: #adb5bd;
         transition: 0.2s linear;
     }
     .fa-facebook-square:hover{
@@ -4707,4 +4880,5 @@
     .fa-linkedin:hover{
         color:#Fff
     }
+    
 }

@@ -98,7 +98,7 @@ body{
 
 .navlinks a {
     float: left;
-    color: #9D9D9D;
+    color: #adb5bd;
     text-align: center;
     margin-left: 2vw;
     text-decoration: none;
@@ -107,7 +107,7 @@ body{
     font-size: 1rem;
 }
 .dropdown button{
-    color: #9D9D9D;
+    color: #adb5bd;
     text-align: center;
     margin-left: 2vw;
     text-decoration: none;
@@ -277,7 +277,7 @@ body{
     flex-direction: column;
 }
 .bd1ccbody h3{
-    color: #9D9D9D;
+    color: #adb5bd;
     font-weight: 50;
     font-family: nats;
     text-align: center;
@@ -480,7 +480,7 @@ body{
     height: 0.75vh;
     width: 25%;
     border-radius: 2em;
-    background-color: #9D9D9D;
+    background-color: #adb5bd;
     opacity: 0.5;
 }
 .carindact{
@@ -498,7 +498,7 @@ body{
     /* display: none; */
 }
 .services h1{
-    color: #ACACAC;
+    color: #adb5bd;
     font-family: nico;
     font-size: 1em;
 }
@@ -657,7 +657,7 @@ body{
     font-size: 0.79em;
 }
 .pl{
-    color: #999999;
+    color: #adb5bd;
     font-family: nats;
     font-weight: 100;
     font-size: 0.8em;
@@ -690,7 +690,7 @@ body{
 .butth p{
     padding-right: 0.5vw;
     padding-left: 0.5vw;
-    color: #999999;
+    color: #adb5bd;
     width:15vw;
     font-family: nats;
     font-size: 0.7rem;
@@ -731,7 +731,7 @@ body{
     flex-direction: column;
 }
 .number > h1{
-    color: #ACACAC;
+    color: #adb5bd;
     font-family: nico;
     letter-spacing: 0.125rem;
     font-size: 2em;
@@ -788,7 +788,7 @@ body{
 }
 
 .cont h1{
-    color: #ACACAC;
+    color: #adb5bd;
     font-family: nico;
     font-weight: 100;
     font-size: 3.75vmin;
@@ -843,11 +843,11 @@ body{
     justify-content: center !important;
     align-items: center;
     width: 100%;
-    color: #999999;
+    color: #adb5bd;
+    text-align: center;
     font-family: nats;
-    letter-spacing: 0.1vw;
-    line-height: 4vmin;
-    font-size: 3vmin;
+    line-height: 3.4vmin;
+    font-size: 2.7vmin;
     font-weight: 100;
 
 }
@@ -886,9 +886,8 @@ body{
 }
 .rip{
     width: 100%;
-    color: #999999;
+    color:#adb5bd;
     font-family: nats;
-    letter-spacing: 0.1vw;
     font-size: 3vh;
     text-align: center;
 }
@@ -928,7 +927,7 @@ body{
 }
 .ivscont .nav div a{
     text-decoration: none;
-    color: #ACACAC;
+    color: #adb5bd;
     font-family: nico;
     line-height: 3vh;
     cursor: default;
@@ -944,19 +943,60 @@ body{
 .ivscont .nav div .active{
     color: #FFFFFF;
 }
-.ivscont img{
+.ld img{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+.ld{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: max-content;
     height: 30vh;
     max-height: 30vh;
-    width: 90%;
-    max-width: 90%;
+    min-height: 30vh;
+    width: calc(60vw - 8px);
+    max-width: calc(60vw - 8px);
+    min-width: calc(60vw - 8px);
+    overflow: hidden;
     border: 0.125em solid #4C9FFF;
 }
+.lddiv{
+    height: 60vh;
+    max-height: 60vh;
+    min-height: 60vh;
+    width: calc(60vw - 8px);
+    max-width: calc(60vw - 8px);
+    min-width: calc(60vw - 8px);
+    background-color: black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ldloader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 .ivscont p{
     margin-bottom: 2.5vh;
     margin-top: 2.5vh;
     max-width: 80%;
     width: 80%;
-    color: #999999;
+    color: #adb5bd;
     font-family: nats;
     font-weight: 100;
     letter-spacing: 0.125rem;
@@ -987,14 +1027,14 @@ body{
 }
 .ebsgcont h1{
     max-width: 100%;
-    color: #ACACAC;
+    color: #adb5bd;
     font-family: nico;
     font-size: 1em;
     text-align: center;
 }
 .ebsgcont p{
     max-width: 75%;
-    color: #999999;
+    color: #adb5bd;
     font-family: nats;
     font-size: 0.7em;
     text-align: center;
@@ -1020,7 +1060,7 @@ body{
     z-index: -1;
     scale: 1 0;
     transform-origin: top;
-    animation: scroll-watcher linear;
+    animation: scroll-watcher linear forwards;
     animation-timeline: view(25vh 10vh);
 }
 @keyframes scroll-watcher {
@@ -1063,7 +1103,7 @@ body{
 }
 
 .number{
-    height: 25vh;
+    height: max-content;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1072,7 +1112,7 @@ body{
     /* display: none; */
 }
 .number > h1{
-    color: #ACACAC;
+    color: #adb5bd;
     font-family: nico;
     font-size: 1em;
     margin-bottom: 5vh;
@@ -1121,7 +1161,7 @@ body{
 .amsds div h1{
     font-family: nico;
     font-size: 1em;
-    color: #ACACAC;
+    color: #adb5bd;
     text-align: center;
 }
 .amsdscont{
@@ -1148,7 +1188,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-top: 1px solid #343a40;
+    border-top: 1px solid rgba(173, 181, 189,0.3);
     background-color: #0f1114;
 }
 .fcont{
@@ -1162,7 +1202,7 @@ body{
     align-items: center;
 }
 .fbot{
-    border-top: 1px solid #515151;
+    border-top: 1px solid rgba(173, 181, 189,0.3);
     height: 10vh;
     max-height: 10vh;
     width: 100%;
@@ -1172,7 +1212,7 @@ body{
     align-items: center;
 }
 .fbot h5{
-    color: #939393;
+    color: #adb5bd;;
     font-family: nats;
 }
 .ftop1{
@@ -1188,14 +1228,14 @@ body{
 }
 .ftop1 p{
     margin-top: 2.5vh;
-    color: #939393;
+    color: #adb5bd;;
     font-family: nats;
     max-width: 75%;
-    font-size: 2.5vmin;
+    font-size: 1.75vmin;
     line-height: 2.5vmin;
 }
 .ftop2{
-    height: 100%;
+    height: 50%;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -1214,15 +1254,15 @@ body{
     margin-top: 27.5%;
     color: #FFFFFF;
     font-family: nats;
-    font-size: 2.5vmax;
-    line-height: 3vmax;
+    font-size: 2vmax;
+    line-height: 4vmax;
 }
 .ftop2 div a{
     text-decoration: none;
-    color: #939393;
+    color: #adb5bd;;
     font-family: nats;
-    font-size: 1.5vmax;
-    line-height: 5vh;
+    font-size: 1.2vmax;
+    line-height: 2vmax;
     transition: 0.3s linear;
 }
 .ftop2 div a:hover{
@@ -1242,7 +1282,7 @@ body{
 .fa-brands, .fab {
     font-family: "Font Awesome 6 Brands";
     font-weight: 400;
-    color: #939393;
+    color: #adb5bd;;
     transition: 0.2s linear;
 }
 .fa-facebook-square:hover{

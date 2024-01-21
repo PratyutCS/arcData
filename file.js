@@ -19,8 +19,7 @@ function oh(i) {
     document.querySelector(".q3").classList.remove("active");
     document.querySelector(".qq3").classList.remove("active");
     document.querySelector(".oho").src = "./assests/i/image.jpg";
-    document.querySelector(".p1").innerHTML =
-      "Leverage labelling services for faster and accurate annotations including 2D and 3D boundingboxes, polygons, polylines, landmarks, key-points, and semantic segmentation.";
+    document.querySelector(".p1").innerHTML = "Leverage labelling services for faster and accurate annotations including 2D and 3D boundingboxes, polygons, polylines, landmarks, key-points, and semantic segmentation.";
   } else if (i == 2) {
     document.querySelector(".q1").classList.remove("active");
     document.querySelector(".qq1").classList.remove("active");
@@ -28,10 +27,8 @@ function oh(i) {
     document.querySelector(".qq2").classList.add("active");
     document.querySelector(".q3").classList.remove("active");
     document.querySelector(".qq3").classList.remove("active");
-    document.querySelector(".oho").src =
-      "./assests/video-annotation-for-deep-learning.gif";
-    document.querySelector(".p1").innerHTML =
-      "Boost Visual Intelligence! Explore our Video Annotation service for precise object detection and tracking across frames. Elevate your computer vision models with seamless accuracy and efficiency.";
+    document.querySelector(".oho").src = "./assests/video-annotation-for-deep-learning.gif";
+    document.querySelector(".p1").innerHTML = "Boost Visual Intelligence! Explore our Video Annotation service for precise object detection and tracking across frames. Elevate your computer vision models with seamless accuracy and efficiency.";
   } else {
     document.querySelector(".q1").classList.remove("active");
     document.querySelector(".qq1").classList.remove("active");
@@ -40,9 +37,10 @@ function oh(i) {
     document.querySelector(".q3").classList.add("active");
     document.querySelector(".qq3").classList.add("active");
     document.querySelector(".oho").src = "./assests/se.svg";
-    document.querySelector(".p1").innerHTML =
-      "Precision in Every Dimension: Elevate 3D Computer Vision Accuracy with Our Annotation Services. From Camera to Lidar and Radar, Unlock Enhanced Models with 3D Bounding Boxes, 2D-3D Linking, and Point Cloud Segmentations.";
+    document.querySelector(".p1").innerHTML = "Precision in Every Dimension: Elevate 3D Computer Vision Accuracy with Our Annotation Services. From Camera to Lidar and Radar, Unlock Enhanced Models with 3D Bounding Boxes, 2D-3D Linking, and Point Cloud Segmentations.";
   }
+  document.querySelector(".lddiv").style.display = "flex";
+  lnd();
 }
 
 let slideIndex = 0;
@@ -215,3 +213,17 @@ menu_btn.addEventListener('click', function () {
 	menu_btn.classList.toggle('is-active');
 	mobile_menu.classList.toggle('is-active');
 });
+
+function lnd(){
+  let xxd = document.querySelector(".oho");
+  xxd.addEventListener("load",function(){
+    console.log("all_fine");
+    document.querySelector(".lddiv").style.display = "none";
+  })
+}
+
+let xxd = document.querySelector(".oho");
+xxd.addEventListener("load",function(){
+  console.log("all_fine");
+  document.querySelector(".lddiv").style.display = "none";
+})

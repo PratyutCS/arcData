@@ -94,7 +94,7 @@ body{
 .navlinks a {
     float: left;
     /* display: block; */
-    color: #9D9D9D;
+    color: #adb5bd;
     text-align: center;
     margin-left: 2vw;
     text-decoration: none;
@@ -103,7 +103,7 @@ body{
     font-size: 1rem;
 }
 .dropdown button{
-    color: #9D9D9D;
+    color: #adb5bd;
     text-align: center;
     margin-left: 2vw;
     text-decoration: none;
@@ -247,7 +247,7 @@ body{
     flex-direction: column;
 }
 .bd1ccbody h3{
-    color: #9D9D9D;
+    color: #adb5bd;
     font-weight: 50;
     font-family: nats;
     font-size: 2vmax;
@@ -260,7 +260,6 @@ body{
     -webkit-text-fill-color: transparent !important;
     font-family: nico;
     font-size: 3.5vmax;
-    letter-spacing: 0.15em;
     display: flex;
     justify-content: center;
     height:7.5vh;
@@ -310,6 +309,8 @@ body{
 }
 .ccbody > video{
     height: 45vh;
+    max-height: 45vh;
+    max-width: 50%;
 }
 .cccbody > h3{
     font-weight: 50;
@@ -449,7 +450,7 @@ body{
     height: 1vh;
     width: 30%;
     border-radius: 2em;
-    background-color: #9D9D9D;
+    background-color: #adb5bd;
     opacity: 0.5;
 }
 .carindact{
@@ -465,9 +466,10 @@ body{
     flex-direction: column;
 }
 .services h1{
-    color: #ACACAC;
+    color: #adb5bd;
     font-family: nico;
-    letter-spacing: 0.1em;
+    font-size: 3vmax;
+    line-height: 3vmax;
 }
 .serv{
     height: 12.5vh;
@@ -545,7 +547,7 @@ body{
 }
 
 .serv div h5{
-    color: #9D9D9D;
+    color: #adb5bd;
     font-family: nats;
 }
 .lvd{
@@ -572,7 +574,6 @@ body{
     color: #FFFFFF;
     font-family: nats;
     font-weight: 100;
-    letter-spacing: 0.05em;
     font-size: 3vmax;
 }
 .lavdhalf{
@@ -613,14 +614,13 @@ body{
     display: flex;
     width: 30vw;
     font-family: nats;
-    font-size: 2vmax;
-    line-height: 2.5vmax;
+    font-size: 1.75vmax;
+    line-height: 2.25vmax;
 }
 .pl{
-    color: #999999;
+    color: #adb5bd;
     font-family: nats;
     font-weight: 100;
-    letter-spacing: 0.05em;
     font-size: 1.75vmax;
     line-height: 1.75vmax;
     border-radius: 0.5em;
@@ -650,7 +650,7 @@ body{
 .butth p{
     padding-right: 0.25vw;
     padding-left: 0.25vw;
-    color: #999999;
+    color: #adb5bd;
     font-family: nats;
     font-size: 1.5vmax;
     line-height: 1.5vmax;
@@ -684,7 +684,8 @@ body{
 
 .number{
     margin-top: 5vh;
-    height: 25vh;
+    margin-bottom: 5vh;
+    height: max-content;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -692,9 +693,8 @@ body{
     flex-direction: column;
 }
 .number > h1{
-    color: #ACACAC;
+    color: #adb5bd;
     font-family: nico;
-    letter-spacing: 0.125rem;
     font-size: 3vmax;
     line-height: 3vmax;
     margin-bottom: 10vh;
@@ -713,21 +713,19 @@ body{
 }
 .num div h1{
     color: #4C9FFF;
-    letter-spacing: 0.075em;
     font-family: nico;
     font-size: 2vmax;
     line-height: 3vmax;
 }
 .num div h3{
     color: #B4B4B4;
-    letter-spacing: 0.125em;
     font-family: nico;
     font-size: 2vmax;
     line-height: 2vmax;
 }
 .atd{
     width: 100%;
-    height:200vh;
+    height:220vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -746,10 +744,11 @@ body{
     flex-direction: column;
 }
 .cont h1{
-    color: #ACACAC;
+    color: #adb5bd;
     font-family: nico;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 3vmax;
+    line-height: 3vmax;
 }
 .cont div{
     height: 35vh;
@@ -774,16 +773,14 @@ body{
     width: 100%;
     color: #FFFFFF;
     font-family: nats;
-    letter-spacing: 0.1vw;
     font-weight: 100;
     line-height: 5vh;
     font-size: 1.3rem;
 }
 .cont div div p{
     width: 100%;
-    color: #999999;
+    color: #adb5bd;
     font-family: nats;
-    letter-spacing: 0.1vw;
     font-size: 2vmax;
     line-height: 2.25vmax;
     font-weight: 100;
@@ -821,7 +818,6 @@ body{
 .content-details h3{
     color: #fff;
     font-weight: 500;
-    letter-spacing: 0.15em;
     text-transform: uppercase;
     font-family: nats;
     margin-left: 3vw;
@@ -842,15 +838,13 @@ body{
 .rih{width: 100%;
     color: #FFFFFF;
     font-family: nats;
-    letter-spacing: 0.1vw;
     font-weight: 100;
     text-align: right;
 }
 .rip{
     width: 100%;
-    color: #999999;
+    color: #adb5bd;
     font-family: nats;
-    letter-spacing: 0.1vw;
     font-size: 3vh;
     text-align: right;
 }
@@ -891,7 +885,7 @@ body{
 }
 .ivscont .nav div a{
     text-decoration: none;
-    color: #ACACAC;
+    color: #adb5bd;
     font-family: nico;
     font-size: 2vmax;
     line-height: 2.5vmax;
@@ -908,17 +902,60 @@ body{
 .ivscont .nav div .active{
     color: #FFFFFF;
 }
-.ivscont img{
+.ld img{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+.ld{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: max-content;
     height: 60vh;
     max-height: 60vh;
+    min-height: 60vh;
+    width: calc(60vw - 8px);
+    max-width: calc(60vw - 8px);
+    min-width: calc(60vw - 8px);
+    overflow: hidden;
     border: 0.125em solid #4C9FFF;
 }
+.lddiv{
+    height: 60vh;
+    max-height: 60vh;
+    min-height: 60vh;
+    width: calc(60vw - 8px);
+    max-width: calc(60vw - 8px);
+    min-width: calc(60vw - 8px);
+    background-color: black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ldloader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 .ivscont p{
     margin-bottom: 2.5vh;
     margin-top: 2.5vh;
     max-width: 80%;
     width: 80%;
-    color: #999999;
+    color: #adb5bd;
     font-family: nats;
     font-weight: 100;
     font-size: 3vmin;
@@ -946,19 +983,18 @@ body{
     flex-direction: column;
 }
 .ebsgcont h1{
+    text-align: center;
     max-width: 100%;
-    color: #ACACAC;
+    color: #adb5bd;
     font-family: nico;
-    letter-spacing: 0.125em;
     font-size: 3vmax;
     line-height: 3vmax;
     text-align: center;
 }
 .ebsgcont p{
     max-width: 75%;
-    color: #999999;
+    color: #adb5bd;
     font-family: nats;
-    letter-spacing: 0.01em;
     font-size: 2.25vmax;
     line-height: 2.25vmax;
     text-align: center;
@@ -983,7 +1019,7 @@ body{
     z-index: -1;
     scale: 1 0;
     transform-origin: top;
-    animation: scroll-watcher linear;
+    animation: scroll-watcher linear forwards;
     animation-timeline: view(25vh 10vh);
 }
 @keyframes scroll-watcher {
@@ -1026,7 +1062,9 @@ body{
 }
 .amsds{
     width: 100%;
-    height: 125vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1040,9 +1078,8 @@ body{
 }
 .amsds div h1{
     font-family: nico;
-    color: #ACACAC;
+    color: #adb5bd;
     text-align: center;
-    letter-spacing: 0.1em;
     font-size: 3vmax;
     line-height: 3vmax;
 }
@@ -1089,7 +1126,7 @@ body{
     align-items: center;
 }
 .fbot h5{
-    color: #939393;
+    color: #adb5bd;;
     font-family: nats;
 }
 .ftop1{
@@ -1105,10 +1142,10 @@ body{
 }
 .ftop1 p{
     margin-top: 2.5vh;
-    color: #939393;
+    color: #adb5bd;;
     font-family: nats;
     max-width: 75%;
-    font-size: 2.5vmin;
+    font-size: 1.75vmin;
     line-height: 2.5vmin;
 }
 .ftop2{
@@ -1136,7 +1173,7 @@ body{
 }
 .ftop2 div a{
     text-decoration: none;
-    color: #939393;
+    color: #adb5bd;;
     font-family: nats;
     line-height: 5vh;
     transition: 0.3s linear;
@@ -1160,7 +1197,7 @@ body{
 .fa-brands, .fab {
     font-family: "Font Awesome 6 Brands";
     font-weight: 400;
-    color: #939393;
+    color: #adb5bd;;
     transition: 0.2s linear;
 }
 .fa-facebook-square:hover{

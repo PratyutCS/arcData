@@ -82,7 +82,7 @@ body{
 .navlinks a {
     float: left;
     /* display: block; */
-    color: #9D9D9D;
+    color: #adb5bd;
     text-align: center;
     margin-left: 2vw;
     text-decoration: none;
@@ -91,7 +91,7 @@ body{
     font-size: 1rem;
 }
 .dropdown button{
-    color: #9D9D9D;
+    color: #adb5bd;
     text-align: center;
     margin-left: 2vw;
     text-decoration: none;
@@ -207,7 +207,7 @@ body{
 .serv-text p{
     font-size: 2.3vmin;
     font-family: nats;
-    color: #AFAFAF;
+    color: #adb5bd;
 }
 .serv-main{
     height: 95%;
@@ -215,9 +215,10 @@ body{
     color: white;
 }
 .serv-div{
-    background-color: #0A0A0A;
+    background: radial-gradient(circle, rgba(76,159,255,0.4) -10%, rgba(0,0,0,1) 90%);
+    box-shadow: inset 0 1px 1px rgba(199,211,234,.12), inset 0 24px 48px rgba(199,211,234,.05);
     border-radius: 1em;
-    border: 1px solid rgba(76, 159, 255,0.1);
+    border: 0.7px solid rgba(216, 216, 216, 0.2);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -233,7 +234,8 @@ body{
     height: 90%;
     width: 27.5%;
     border-radius: 0.6em;
-    background-color:#111111;
+    background-color: rgba(255, 255, 255,0.05);
+    border: 0.7px solid rgba(216, 216, 216, 0.2);
 }
 .serv-left p{
     color: #A9A6A6;
@@ -270,7 +272,8 @@ body{
     align-items: center;
     height: 90%;
     width: 67.5%;
-    background-color:#111111;
+    background-color: rgba(255, 255, 255,0.05);
+    border: 0.7px solid rgba(216, 216, 216, 0.2);
 }
 .serv-right-img{
     height: 60%;
@@ -300,6 +303,8 @@ body{
     font-size: 4vmin;
 }
 .serv_industry{
+    background: radial-gradient(circle, rgba(76,159,255,0.6) 0%, rgba(0,0,0,1) 50%);
+    box-shadow: inset 0 1px 1px rgba(199,211,234,.12), inset 0 24px 48px rgba(199,211,234,.05);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -315,8 +320,11 @@ body{
     height:100%
 }
 .indus-img{
-    width: 60%;
-    height: 90%;
+    width: 65%;
+    height: 75%;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border: 1px solid white;
 }
 .indus-txt{
     font-family: nico;
@@ -336,6 +344,12 @@ body{
     align-items: center;
     width: 100%;
     height: 90%;
+}
+.serv-indus h1{
+    font-weight: 100;
+    font-size: 2vmax;
+    font-family: nats;
+    line-height: 2vmax;
 }
 
 .indus1{
@@ -366,7 +380,7 @@ body{
     justify-content: center;
     align-items: flex-end;
     border-radius: 0.6em;
-    border: 1px solid #4B4B4B;
+    border: 0.7px solid rgba(216, 216, 216, 0.2);
     background: linear-gradient(180deg, rgba(0,0,0,0.3968181022408963) 64%, rgba(76,159,255,0.4808517156862745) 100%);
 
 
@@ -433,7 +447,7 @@ body{
     border-radius: 50em;
     height: 1.5vw;
     width: 1.5vw;
-    color: #AFAFAF;
+    color: #adb5bd;
 
 }
 .text--1{
@@ -446,7 +460,7 @@ body{
 .text--1 p{
     font-size: 2.25vmin;
     line-height: 2.25vmin;
-    color: #AFAFAF;
+    color: #adb5bd;
 }
 
 .text--1 a{
@@ -582,7 +596,7 @@ body{
 .fa-brands, .fab {
     font-family: "Font Awesome 6 Brands";
     font-weight: 400;
-    color: #939393;
+    color: #adb5bd;;
     transition: 0.2s linear;
 }
 .fa-facebook-square:hover{

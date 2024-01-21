@@ -94,7 +94,7 @@ body{
 
 .navlinks a {
     float: left;
-    color: #9D9D9D;
+    color: #adb5bd;
     text-align: center;
     margin-left: 2vw;
     text-decoration: none;
@@ -103,7 +103,7 @@ body{
     font-size: 1rem;
 }
 .dropdown button{
-    color: #9D9D9D;
+    color: #adb5bd;
     text-align: center;
     margin-left: 2vw;
     text-decoration: none;
@@ -491,7 +491,7 @@ body{
     width:75%;
 }
 .sub1-1 p{
-    color: #DAD3D3;
+    color: #adb5bd;
     line-height: 1vh;
     border-right: 1px solid #333333;
     font-size: 0.2em;
@@ -517,7 +517,7 @@ body{
     align-items: center;
 }
 .sub-p{
-    color: #DAD3D3;
+    color: #adb5bd;
     border-right: none !important;
     line-height: 2vh;
     font-family: nico;
@@ -673,7 +673,7 @@ body{
     
 }
 .teamp p{
-    color: #adb5bd;;
+    color: #adb5bd;
     font-size: 1.5vmax;
     line-height: 1.75vmax;
 }
@@ -880,7 +880,7 @@ body{
 .fa-brands, .fab {
     font-family: "Font Awesome 6 Brands";
     font-weight: 400;
-    color: #939393;
+    color: #adb5bd;;
     transition: 0.2s linear;
 }
 .fa-facebook-square:hover{

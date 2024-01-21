@@ -93,7 +93,7 @@ body{
 .navlinks a {
     float: left;
     /* display: block; */
-    color: #9D9D9D;
+    color: #adb5bd;
     text-align: center;
     margin-left: 2vw;
     text-decoration: none;
@@ -102,7 +102,7 @@ body{
     font-size: 1rem;
 }
 .dropdown button{
-    color: #9D9D9D;
+    color: #adb5bd;
     text-align: center;
     margin-left: 2vw;
     text-decoration: none;
@@ -813,7 +813,7 @@ body{
     .fa-brands, .fab {
         font-family: "Font Awesome 6 Brands";
         font-weight: 400;
-        color: #939393;
+        color: #adb5bd;;
         transition: 0.2s linear;
     }
     .fa-facebook-square:hover{

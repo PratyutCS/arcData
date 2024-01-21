@@ -82,7 +82,7 @@
     .navlinks a {
         float: left;
         /* display: block; */
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -91,7 +91,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -134,7 +134,7 @@
         border: 0.05px solid rgba(136, 136, 136,0.3);
     }
     .dropdown-content a {
-        color: #bbbbbb;
+        color: #adb5bd;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
@@ -193,6 +193,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
     .serv-text{
         display: flex;
@@ -207,7 +208,7 @@
     .serv-text p{
         font-size: 2.3vmin;
         font-family: nats;
-        color: #AFAFAF;
+        color: #adb5bd;
     }
     .serv-main{
         height: 95%;
@@ -215,9 +216,10 @@
         color: white;
     }
     .serv-div{
-        background-color: #0A0A0A;
+        background: radial-gradient(circle, rgba(76,159,255,0.4) -10%, rgba(0,0,0,1) 90%);
+        box-shadow: inset 0 1px 1px rgba(199,211,234,.12), inset 0 24px 48px rgba(199,211,234,.05);
         border-radius: 1em;
-        border: 1px solid rgba(76, 159, 255,0.1);
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -233,10 +235,11 @@
         height: 90%;
         width: 27.5%;
         border-radius: 0.6em;
-        background-color:#111111;
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
+        background-color: rgba(255, 255, 255,0.05);
     }
     .serv-left p{
-        color: #A9A6A6;
+        color:#adb5bd;
         display: flex;
         font-family: nico;
         font-size: 2vmin;
@@ -259,10 +262,11 @@
         border-radius: 0.5em;
         width: 80%;
         height: 14%;
-        background-color: rgba(36, 35, 35,.50) !important;
-        border: 1px solid rgba(255, 255, 255,0.21) !important;
+        background-color: rgba(255, 255, 255,0.03) !important;
+        border: 0.7px solid rgba(75, 75, 75,0.67);
     }
     .serv-right{
+        border: 0.7px solid rgba(75, 75, 75,0.67);
         display: flex;
         flex-direction: column;
         border-radius: 0.6em;
@@ -270,16 +274,21 @@
         align-items: center;
         height: 90%;
         width: 67.5%;
-        background-color:#111111;
+        background-color: rgba(255, 255, 255,0.05);
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
+        
+        /* background: linear-gradient(180deg, rgba(13, 52, 97, 0.3) 10%, rgba(0, 0, 0, 0.4) 70%, rgba(37, 97, 166, 0.4) 100%); */
+
     }
     .serv-right-img{
         height: 60%;
-        width: 100%;
+        width: 80%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .serv-right-img img{
+        border-radius: 2vmin;
         width: 100%;
         height: 100%;
     }
@@ -309,14 +318,17 @@
     .indus-main{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         width: 80%;
         align-items: center;
         height:100%
     }
     .indus-img{
-        width: 60%;
-        height: 90%;
+        width: 65%;
+        height: 75%;
+        border-top-left-radius: 0.5em;
+        border-top-right-radius: 0.5em;
+        border: 1px solid white;
     }
     .indus-txt{
         font-family: nico;
@@ -333,9 +345,11 @@
         flex-direction:row;
         flex-wrap: wrap;
         justify-content: space-between;
+        background: radial-gradient(circle, rgba(76,159,255,0.6) -10%, rgba(0,0,0,1) 70%);
         align-items: center;
         width: 100%;
         height: 90%;
+        
     }
 
     .indus1{
@@ -366,8 +380,11 @@
         justify-content: center;
         align-items: flex-end;
         border-radius: 0.6em;
-        border: 1px solid #4B4B4B;
-        background: linear-gradient(180deg, rgba(0,0,0,0.3968181022408963) 64%, rgba(76,159,255,0.4808517156862745) 100%);
+        border: 0.7px solid rgba(216, 216, 216, 0.6);
+        background-color: rgba(255, 255, 255,0.05);
+
+        
+        /* background: linear-gradient(180deg, rgba(0,0,0,0.3968181022408963) 64%, rgba(76,159,255,0.4808517156862745) 100%); */
 
 
     }
@@ -433,7 +450,7 @@
         border-radius: 50em;
         height: 1.5vw;
         width: 1.5vw;
-        color: #AFAFAF;
+        color: #adb5bd;
 
     }
     .text--1{
@@ -444,9 +461,9 @@
         width: 87%;
     }
     .text--1 p{
-        font-size: 2.25vmin;
+        font-size: 1.8vmin;
         line-height: 2.25vmin;
-        color: #AFAFAF;
+        color: #adb5bd;
     }
     
     .text--1 a{
@@ -490,7 +507,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        border-top: 1px solid #343a40;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         background-color: #0f1114;
     }
     .fcont{
@@ -504,7 +521,7 @@
         align-items: center;
     }
     .fbot{
-        border-top: 1px solid #515151;
+        border-top: 1px solid rgba(173, 181, 189,0.3);
         height: 10vh;
         max-height: 10vh;
         width: 100%;
@@ -582,7 +599,7 @@
     .fa-brands, .fab {
         font-family: "Font Awesome 6 Brands";
         font-weight: 400;
-        color: #939393;
+        color: #adb5bd;;
         transition: 0.2s linear;
     }
     .fa-facebook-square:hover{
@@ -670,7 +687,7 @@
     
     .navlinks a {
         float: left;
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -679,7 +696,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -723,7 +740,7 @@
         border: 0.05px solid rgba(136, 136, 136,0.3);
     }
     .dropdown-content a {
-        color: rgb(112, 111, 111);
+        color: #adb5bd;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
@@ -870,7 +887,7 @@
         font-size: 2vmax;
         line-height: 2vmax;
         font-family: nats;
-        color: #AFAFAF;
+        color: #adb5bd;
     }
     .serv-main{
         height: 97.5%;
@@ -882,9 +899,10 @@
         align-items: center;
     }
     .serv-div{
-        background-color: #0A0A0A;
+        background: radial-gradient(circle, rgba(76,159,255,0.4) -10%, rgba(0,0,0,1) 90%);
+        box-shadow: inset 0 1px 1px rgba(199,211,234,.12), inset 0 24px 48px rgba(199,211,234,.05);
         border-radius: 1em;
-        border: 1px solid rgba(76, 159, 255,0.1);
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-evenly;
@@ -900,11 +918,12 @@
         height: 25%;
         width: 90%;
         border-radius: 0.6em;
-        background-color:#111111;
+        background-color: rgba(255, 255, 255,0.05);
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
         flex-wrap: wrap;
     }
     .serv-left p{
-        color: #A9A6A6;
+        color: #adb5bd;
         display: flex;
         font-family: nats;
         font-size: 2.25vmax;
@@ -940,7 +959,8 @@
         align-items: center;
         height: 65%;
         width: 90%;
-        background-color:#111111;
+        background-color: rgba(255, 255, 255,0.05);
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
     }
     .serv-right-img{
         height: 60%;
@@ -951,6 +971,7 @@
     }
     .serv-right-img img{
         width: auto;
+        max-width: 100%;
         height: 100%;
     }
     .serv-right-txt{
@@ -992,7 +1013,7 @@
         height: 75%;
         border-top-left-radius: 0.5em;
         border-top-right-radius: 0.5em;
-        border: 1px solid white;
+        border: 1px solid white;
     }
     .indus-txt{
         font-family: nico;
@@ -1045,7 +1066,7 @@
         justify-content: center;
         align-items: flex-end;
         border-radius: 0.6em;
-        border: 1px solid #4B4B4B;
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
         background: linear-gradient(180deg, rgba(0,0,0,0.3968181022408963) 64%, rgba(76,159,255,0.4808517156862745) 100%);
     
     
@@ -1100,7 +1121,7 @@
     .text--1 p{
         font-size: 1.75vmax;
         line-height: 1.5vmax;
-        color: #AFAFAF;
+        color: #adb5bd;
     }
         
     .text--1 a{
@@ -1172,7 +1193,7 @@
         align-items: center;
     }
     .fbot h5{
-        color: #939393;
+        color: #adb5bd;;
         font-family: nats;
     }
     .ftop1{
@@ -1189,7 +1210,7 @@
     .ftop1 p{
         text-align: center;
         margin-top: 2.5vh;
-        color: #939393;
+        color: #adb5bd;;
         font-family: nats;
         max-width: 100%;
         line-height: 2vh;
@@ -1220,7 +1241,7 @@
     }
     .ftop2 div a{
         text-decoration: none;
-        color: #939393;
+        color: #adb5bd;;
         font-family: nats;
         font-size: 1.75vmax;
         line-height: 2.5vmax;
@@ -1244,7 +1265,7 @@
     .fa-brands, .fab {
         font-family: "Font Awesome 6 Brands";
         font-weight: 400;
-        color: #939393;
+        color: #adb5bd;;
         transition: 0.2s linear;
     }
     .fa-facebook-square:hover{
@@ -1325,7 +1346,7 @@
     .navlinks a {
         float: left;
         /* display: block; */
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -1334,7 +1355,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -1450,7 +1471,7 @@
     .serv-text p{
         font-size: 2.3vmin;
         font-family: nats;
-        color: #AFAFAF;
+        color: #adb5bd;
     }
     .serv-main{
         height: 95%;
@@ -1458,9 +1479,10 @@
         color: white;
     }
     .serv-div{
-        background-color: #0A0A0A;
+        background: radial-gradient(circle, rgba(76,159,255,0.4) -10%, rgba(0,0,0,1) 90%);
+        box-shadow: inset 0 1px 1px rgba(199,211,234,.12), inset 0 24px 48px rgba(199,211,234,.05);
         border-radius: 1em;
-        border: 1px solid rgba(76, 159, 255,0.1);
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -1476,7 +1498,8 @@
         height: 90%;
         width: 27.5%;
         border-radius: 0.6em;
-        background-color:#111111;
+        background-color: rgba(255, 255, 255,0.05);
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
     }
     .serv-left p{
         color: #A9A6A6;
@@ -1513,7 +1536,8 @@
         align-items: center;
         height: 90%;
         width: 67.5%;
-        background-color:#111111;
+        background-color: rgba(255, 255, 255,0.05);
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
     }
     .serv-right-img{
         height: 60%;
@@ -1543,6 +1567,8 @@
         font-size: 4vmin;
     }
     .serv_industry{
+        background: radial-gradient(circle, rgba(76,159,255,0.6) 0%, rgba(0,0,0,1) 50%);
+        box-shadow: inset 0 1px 1px rgba(199,211,234,.12), inset 0 24px 48px rgba(199,211,234,.05);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1558,8 +1584,11 @@
         height:100%
     }
     .indus-img{
-        width: 60%;
-        height: 90%;
+        width: 65%;
+        height: 75%;
+        border-top-left-radius: 0.5em;
+        border-top-right-radius: 0.5em;
+        border: 1px solid white;
     }
     .indus-txt{
         font-family: nico;
@@ -1609,7 +1638,7 @@
         justify-content: center;
         align-items: flex-end;
         border-radius: 0.6em;
-        border: 1px solid #4B4B4B;
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
         background: linear-gradient(180deg, rgba(0,0,0,0.3968181022408963) 64%, rgba(76,159,255,0.4808517156862745) 100%);
     
     
@@ -1676,7 +1705,7 @@
         border-radius: 50em;
         height: 1.5vw;
         width: 1.5vw;
-        color: #AFAFAF;
+        color: #adb5bd;
     
     }
     .text--1{
@@ -1689,7 +1718,7 @@
     .text--1 p{
         font-size: 2.25vmin;
         line-height: 2.25vmin;
-        color: #AFAFAF;
+        color: #adb5bd;
     }
     
     .text--1 a{
@@ -1757,7 +1786,7 @@
         align-items: center;
     }
     .fbot h5{
-        color: #939393;
+        color: #adb5bd;
         font-family: nats;
     }
     .ftop1{
@@ -1773,17 +1802,17 @@
     }
     .ftop1 p{
         margin-top: 2.5vh;
-        color: #939393;
+        color: #adb5bd;
         font-family: nats;
         max-width: 65%;
-        letter-spacing: 0.1rem;
+        font-size: 1.75vmax;
+        line-height: 1.75vmax;
     }
     .ftop2{
         height: 100%;
         width: 50%;
         display: flex;
         justify-content: center;
-        align-items: center;
         flex-direction: row;
     }
     .ftop2 div{
@@ -1791,20 +1820,22 @@
         width:33.33%;
         display: flex;
         justify-content: flex-start;
-        align-items: center;
         flex-direction: column;
     }
     .ftop2 div h1{
         margin-top: 27.5%;
         color: #FFFFFF;
         font-family: nats;
+        font-size: 2vmax;
+        line-height: 3.5vmax;
     }
     .ftop2 div a{
         text-decoration: none;
-        color: #939393;
+        color: #adb5bd;
         font-family: nats;
-        line-height: 5vh;
         transition: 0.3s linear;
+        font-size: 1.5vmax;
+        line-height: 2vmax;
     }
     .ftop2 div a:hover{
         color: #FFFFFF;
@@ -1823,7 +1854,7 @@
     .fa-brands, .fab {
         font-family: "Font Awesome 6 Brands";
         font-weight: 400;
-        color: #939393;
+        color: #adb5bd;;
         transition: 0.2s linear;
     }
     .fa-facebook-square:hover{
@@ -1836,7 +1867,6 @@
     .fa-linkedin:hover{
         color:#Fff
     }
-    
 }
 @media only screen and (max-width: 500px) and (orientation:landscape) {
     *{
@@ -1916,7 +1946,7 @@
     
     .navlinks a {
         float: left;
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -1925,7 +1955,7 @@
         font-size: 1rem;
     }
     .dropdown button{
-        color: #9D9D9D;
+        color: #adb5bd;
         text-align: center;
         margin-left: 2vw;
         text-decoration: none;
@@ -2085,6 +2115,13 @@
         color: #FFF;
         text-decoration: none;
     }
+    .text--1 a{
+        font-size: 2vmin;
+        line-height: 2vmin;
+        color: #4C9FFF;
+        text-decoration: underline;
+        cursor: pointer;
+    }
     
     
         
@@ -2109,7 +2146,7 @@
         font-size: 2vmax;
         line-height: 2vmax;
         font-family: nats;
-        color: #AFAFAF;
+        color: #adb5bd;
     }
     .serv-main{
         height: 97.5%;
@@ -2121,9 +2158,10 @@
         align-items: center;
     }
     .serv-div{
-        background-color: #0A0A0A;
+        background: radial-gradient(circle, rgba(76,159,255,0.4) -10%, rgba(0,0,0,1) 90%);
+        box-shadow: inset 0 1px 1px rgba(199,211,234,.12), inset 0 24px 48px rgba(199,211,234,.05);
         border-radius: 1em;
-        border: 1px solid rgba(76, 159, 255,0.1);
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-evenly;
@@ -2139,7 +2177,8 @@
         height: 25%;
         width: 90%;
         border-radius: 0.6em;
-        background-color:#111111;
+        background-color: rgba(255, 255, 255,0.05);
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
         flex-wrap: wrap;
     }
     .serv-left p{
@@ -2156,6 +2195,7 @@
         background-color: rgba(3, 3, 3,0.21);
         border: 1px solid rgba(36, 35, 35,0.6);
         text-align: center;
+        cursor: pointer;        
     }
     .p-active{
         color: white !important;
@@ -2178,7 +2218,8 @@
         align-items: center;
         height: 65%;
         width: 90%;
-        background-color:#111111;
+        background-color: rgba(255, 255, 255,0.05);
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
     }
     .serv-right-img{
         height: 40%;
@@ -2225,8 +2266,11 @@
         height:100%;
     }
     .indus-img{
-        width: 60%;
-        height: 90%;
+        width: 65%;
+        height: 75%;
+        border-top-left-radius: 0.5em;
+        border-top-right-radius: 0.5em;
+        border: 1px solid white;
     }
     .indus-txt{
         font-family: nico;
@@ -2277,7 +2321,7 @@
         justify-content: center;
         align-items: flex-end;
         border-radius: 0.6em;
-        border: 1px solid #4B4B4B;
+        border: 0.7px solid rgba(216, 216, 216, 0.2);
         background: linear-gradient(180deg, rgba(0,0,0,0.3968181022408963) 64%, rgba(76,159,255,0.4808517156862745) 100%);
     
     
@@ -2332,9 +2376,9 @@
     .text--1 p{
         font-size: 2vmax;
         line-height: 2vmax;
-        color: #AFAFAF;
+        color: #adb5bd;
     }
-    
+        
     .text--1 a{
         font-size: 1.85vmax;
         line-height: 1.85vmax;
@@ -2377,6 +2421,7 @@
         flex-direction: column;
         border-top: 1px solid #343a40;
         background-color: #0f1114;
+        /* display:none; */
     }
     .fcont{
         height: 100%;
@@ -2400,8 +2445,10 @@
         align-items: center;
     }
     .fbot h5{
-        color: #939393;
+        color: #adb5bd;
         font-family: nats;
+        font-size: 1.5vmax;
+        line-height: 1.5vmax;
     }
     .ftop1{
         height: 100%;
@@ -2417,7 +2464,7 @@
     .ftop1 p{
         text-align: center;
         margin-top: 2.5vh;
-        color: #939393;
+        color: #adb5bd;
         font-family: nats;
         max-width: 100%;
         line-height: 2vh;
@@ -2443,13 +2490,15 @@
         margin-top: 15%;
         color: #FFFFFF;
         font-family: nats;
-        font-size: 1em;
+        font-size: 2vmax;
+        line-height: 3vmax;
     }
     .ftop2 div a{
         text-decoration: none;
-        color: #939393;
+        color: #adb5bd;
         font-family: nats;
-        font-size: 0.7em;
+        font-size: 1.5vmax;
+        line-height: 2.5vmax;
         transition: 0.3s linear;
     }
     .ftop2 div a:hover{
@@ -2470,7 +2519,7 @@
     .fa-brands, .fab {
         font-family: "Font Awesome 6 Brands";
         font-weight: 400;
-        color: #939393;
+        color: #adb5bd;;
         transition: 0.2s linear;
     }
     .fa-facebook-square:hover{
