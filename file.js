@@ -39,7 +39,7 @@ function oh(i) {
     document.querySelector(".qq2").classList.remove("active");
     document.querySelector(".q3").classList.add("active");
     document.querySelector(".qq3").classList.add("active");
-    document.querySelector(".oho").src = "./assests/se.svg";
+    document.querySelector(".oho").src = "./assests/1.gif";
     document.querySelector(".p1").innerHTML = "Precision in Every Dimension: Elevate 3D Computer Vision Accuracy with Our Annotation Services. From Camera to Lidar and Radar, Unlock Enhanced Models with 3D Bounding Boxes, 2D-3D Linking, and Point Cloud Segmentations.";
   }
   document.querySelector(".lddiv").style.display = "flex";

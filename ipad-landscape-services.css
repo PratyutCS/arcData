@@ -634,13 +634,13 @@ body{
     font-size: 2vmax;
     line-height: 3.5vmax;
 }
-.ftop2 div a{
+.ftop2 div a {
     text-decoration: none;
     color: #adb5bd;
     font-family: nats;
     transition: 0.3s linear;
-    font-size: 1.5vmax;
-    line-height: 2vmax;
+    font-size: 1vmax;
+    line-height: 1.25vmax;
 }
 .ftop2 div a:hover{
     color: #FFFFFF;

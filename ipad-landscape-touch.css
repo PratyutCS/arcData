@@ -456,14 +456,13 @@ iframe{
     font-size: 2.25vmax;
     line-height: 3vmax;
 }
-.ftop2 div a{
+.ftop2 div a {
     text-decoration: none;
-    color: #adb5bd;;
+    color: #adb5bd;
     font-family: nats;
-    line-height: 5vh;
     transition: 0.3s linear;
-    font-size: 1.5vmax;
-    line-height: 2vmax;
+    font-size: 1vmax;
+    line-height: 1.25vmax;
 }
 .ftop2 div a:hover{
     color: #FFFFFF;

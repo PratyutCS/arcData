@@ -1225,8 +1225,8 @@
         color: #adb5bd;
         font-family: nats;
         transition: 0.3s linear;
-        font-size: 1vmax;
-        line-height: 2vmax;
+        font-size: 0.75vmax;
+        line-height: 1.5vmax;
     }
     .ftop2 div a:hover{
         color: #FFFFFF;
