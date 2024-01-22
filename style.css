@@ -284,6 +284,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
     }
     .blud1{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./assests/bg2.jpg") !important;
@@ -450,6 +451,7 @@
         border-radius: 2em;
         background-color: #adb5bd;
         opacity: 0.5;
+        cursor: pointer;
     }
     .carindact{
         background-color: #FFFFFF !important;
@@ -1552,6 +1554,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
     }
     .blud1{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./assests/bg2.jpg") !important;
@@ -1719,6 +1722,7 @@
         border-radius: 2em;
         background-color: #adb5bd;
         opacity: 0.5;
+        cursor: pointer;
     }
     .carindact{
         background-color: #FFFFFF !important;
@@ -2885,6 +2889,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
     }
     .blud1{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./assests/bg2.jpg") !important;
@@ -3053,6 +3058,7 @@
         border-radius: 2em;
         background-color: #adb5bd;
         opacity: 0.5;
+        cursor: pointer;
     }
     .carindact{
         background-color: #FFFFFF !important;
@@ -4228,6 +4234,7 @@
         justify-content: center;
         align-items: center;
         display: none;
+        cursor: pointer;
     }
     .blud1{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./assests/bg2.jpg") !important;
@@ -4378,6 +4385,7 @@
         border-radius: 2em;
         background-color: #adb5bd;
         opacity: 0.5;
+        cursor: pointer;
     }
     .carindact{
         background-color: #FFFFFF !important;

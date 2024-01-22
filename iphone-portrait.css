@@ -316,6 +316,7 @@ body{
     justify-content: center;
     align-items: center;
     display: none;
+    cursor: pointer;
 }
 .blud1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./assests/bg2.jpg") !important;
@@ -466,6 +467,7 @@ body{
     border-radius: 2em;
     background-color: #adb5bd;
     opacity: 0.5;
+    cursor: pointer;
 }
 .carindact{
     background-color: #FFFFFF !important;
