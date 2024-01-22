@@ -280,7 +280,7 @@ body{
     margin-bottom: 1.5vh;
 }
 .indus-12 p{
-    font-size: 1em;
+    font-size: 1.3vmax;
     line-height: 2vh;
     color:#adb5bd;
     width: 100%;
@@ -313,7 +313,7 @@ body{
     transform: translateX(-50%);
     opacity: 0;
 }
-.indus-img img{
+.indus-img video{
     width: 80vw;
     max-width: 80vw;
     height: 27.5vh;
@@ -466,7 +466,7 @@ body{
 .child-1{
     color: #adb5bd;
     width: 80%;
-    font-size: 0.85em;
+    font-size: 1.3vmax;
     line-height: 2vh;
     letter-spacing: 0em;
     text-align: justify;

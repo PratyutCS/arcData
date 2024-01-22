@@ -261,7 +261,7 @@ body{
     transform: translateX(50%);
     opacity: 0;
 }
-.indus-img img{
+.indus-img video{
     width: 35vw;
     max-width: 35vw;
     height: 40vh;

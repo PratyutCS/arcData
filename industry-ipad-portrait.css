@@ -327,7 +327,7 @@ body{
     transform: translateX(-50%);
     opacity: 0;
 }
-.indus-img img{
+.indus-img video{
     display: flex ;
     justify-content: flex-start;
     align-items: flex-start ;

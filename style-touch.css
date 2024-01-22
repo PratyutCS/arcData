@@ -370,6 +370,7 @@
         color: white;
         font-family: nats;
         border-radius: 2vmin;
+        font-size: 1.1vmax;
         width: 9vw;
         transition:all 0.3s linear;
     }

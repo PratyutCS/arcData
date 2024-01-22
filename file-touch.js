@@ -20,7 +20,7 @@ menu_btn.addEventListener('click', function () {
 async function lol(i){
   document.querySelector(".p"+i).classList.add("anima");
   await sleep(1 * 750);
-  if(i==3){
+  if(i==4){
     return;
   }
   else{
