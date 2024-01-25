@@ -81,7 +81,7 @@ function oh(i) {
     document.querySelector(".q4").classList.remove("p-active");
     document.querySelector(".q5").classList.remove("p-active");
     document.querySelector(".q6").classList.add("p-active");
-    document.querySelector(".ch1").src = "./assests/";
+    document.querySelector(".ch1").src = "./assests/ocr.gif";
     document.querySelector(".ch2").innerHTML = "OCR";
     document.querySelector(".ch3").innerHTML = "Within Optical Character Recognition (OCR), our advanced technology ensures accurate extraction and interpretation of text from images and documents, providing seamless and efficient data processing for various applications.";
   }

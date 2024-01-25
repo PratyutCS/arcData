@@ -524,7 +524,7 @@ body{
     /* background-color: limegreen; */
     display: flex;
     align-items: center !important;
-    justify-content: center !important;
+    justify-content: space-between !important;
     width: 100% !important;
     overflow: hidden;
     height: 21%;
