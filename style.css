@@ -51,9 +51,6 @@
         0% { transform: translateZ(-50px) rotateY(0deg);}
         100% { transform: translateZ(-50px) rotateY(360deg);}
     }
-    
-    
-    
     body{
         padding: 0;
         margin: 0;
@@ -130,6 +127,11 @@
     }
     .undies:hover{
         color: #FFFFFF;
+        background-position: left;
+        background-size: 100% 100%;
+    }
+    .undies-active{
+        color: #FFFFFF !important;
         background-position: left;
         background-size: 100% 100%;
     }
